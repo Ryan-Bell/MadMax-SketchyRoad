@@ -10,6 +10,7 @@ public class TestParticles : MonoBehaviour {
 	int i, j;
 	float animationTime = 4;
 	float elapsedTime = 0;
+    bool first = true;
 	void Start () {
 		//this.gameObject.AddComponent (ParticleSystem);
 
@@ -20,6 +21,7 @@ public class TestParticles : MonoBehaviour {
 		//ParticleArray = new ParticleSystem.Particle[systemHolder.GetComponent<ParticleSystem> ().particleCount];
 		system = systemHolder.GetComponent<ParticleSystem> ();
 		j = 0;
+        first = true;
 	}
 	
 	//This update method steps through assigning particles to points according to random and Perlin noise
@@ -40,7 +42,32 @@ public class TestParticles : MonoBehaviour {
 		system.SetParticles (ParticleArray, system.particleCount);
 	}
 	*/
+
+	// Vertically climbing trail
 	void Update(){
+		//part of line emit
+        system.Emit(10);
+
+        ParticleArray = new ParticleSystem.Particle[systemHolder.GetComponent<ParticleSystem>().particleCount];
+        system.GetParticles(ParticleArray);
+        for (i = 0; i < system.particleCount; i++)
+        {
+            if (i > system.particleCount - 11)
+            {
+                ParticleArray[i].position = new Vector3(0, i % 90, 0);
+                ParticleArray[i].velocity = new Vector3(1, 0, 0);
+            }
+            ParticleArray[i].velocity = new Vector3(1, Mathf.PerlinNoise(ParticleArray[i].position.x, ParticleArray[i].position.y) * 10 - 5, 0);
+        }
+        system.SetParticles(ParticleArray, system.particleCount);
+        return;
+
+
+
+
+
+
+
 		ParticleArray = new ParticleSystem.Particle[systemHolder.GetComponent<ParticleSystem> ().particleCount];
 		system.GetParticles (ParticleArray);
 		for(i = 0; i < system.particleCount; i++){
@@ -52,9 +79,20 @@ public class TestParticles : MonoBehaviour {
 
 
 			//vertically ascending particles shifted by perlin
-			ParticleArray[i].velocity = new Vector3(Mathf.PerlinNoise(ParticleArray[i].position.x, ParticleArray[i].position.y) * 10 - 5, 
+			/*ParticleArray[i].velocity = new Vector3(Mathf.PerlinNoise(ParticleArray[i].position.x, ParticleArray[i].position.y) * 10 - 5, 
 			                                        4,
-			                                        Mathf.PerlinNoise(ParticleArray[i].position.x, ParticleArray[i].position.y) * 10 - 5);
+			                                        Mathf.PerlinNoise(ParticleArray[i].position.x, ParticleArray[i].position.y) * 10 - 5);*/
+
+			//follow line
+			/*
+			ParticleArray[i].velocity = new Vector3(1,
+													Mathf.PerlinNoise(ParticleArray[i].position.x, ParticleArray[i].position.y) * 20 - 10,
+			                                        0);*/
+
+
+
+
+			
 		}
 		system.SetParticles (ParticleArray, system.particleCount);
 		elapsedTime += Time.deltaTime;
@@ -62,5 +100,6 @@ public class TestParticles : MonoBehaviour {
 			elapsedTime = 0;
 		}
 	}
+
 
 }
