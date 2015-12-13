@@ -46,9 +46,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Explosion.cs" />
-     <Compile Include="Assets\Scripts\Flow3D.cs" />
      <Compile Include="Assets\Scripts\Noise.cs" />
-     <Compile Include="Assets\Scripts\NoiseSample.cs" />
      <Compile Include="Assets\Scripts\TestParticles.cs" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />

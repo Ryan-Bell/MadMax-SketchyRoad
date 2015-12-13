@@ -1,21 +1,79 @@
 ﻿using UnityEngine;
 
-public delegate NoiseSample NoiseMethod (Vector3 point, float frequency);
+public struct NoiseSample
+{
+    //the noise value at this sample (0 to 1)
+    public float value;
+    //the normal at this sample, used in calculating the curl vector later
+    public Vector3 derivative;
 
-public enum NoiseMethodType {
-	Perlin
+    //overloading operator for adding a NoiseSample and a number
+    public static NoiseSample operator +(NoiseSample a, float b)
+    {
+        a.value += b;
+        return a;
+    }
+    //same as above but allowing for the flexability of rearranging params
+    public static NoiseSample operator +(float a, NoiseSample b)
+    {
+        b.value += a;
+        return b;
+    }
+    //overloading operator for adding two NoiseSamples
+    public static NoiseSample operator +(NoiseSample a, NoiseSample b)
+    {
+        a.value += b.value;
+        a.derivative += b.derivative;
+        return a;
+    }
+    //overloading operator for subtracting a NoiseSample and a number
+    public static NoiseSample operator -(NoiseSample a, float b)
+    {
+        a.value -= b;
+        return a;
+    }
+    //same as above but allowing for the flexability of rearranging params
+    public static NoiseSample operator -(float a, NoiseSample b)
+    {
+        b.value = a - b.value;
+        b.derivative = -b.derivative;
+        return b;
+    }
+    //overloading operator for subtracting two NoiseSamples
+    public static NoiseSample operator -(NoiseSample a, NoiseSample b)
+    {
+        a.value -= b.value;
+        a.derivative -= b.derivative;
+        return a;
+    }
+    //overloading operator for multiplying a NoiseSample and a number
+    public static NoiseSample operator *(NoiseSample a, float b)
+    {
+        a.value *= b;
+        a.derivative *= b;
+        return a;
+    }
+    //same as above but allowing for the flexability of rearranging params
+    public static NoiseSample operator *(float a, NoiseSample b)
+    {
+        b.value *= a;
+        b.derivative *= a;
+        return b;
+    }
+    //overloading operator for multiplying two NoiseSamples
+    public static NoiseSample operator *(NoiseSample a, NoiseSample b)
+    {
+        a.derivative = a.derivative * b.value + b.derivative * a.value;
+        a.value *= b.value;
+        return a;
+    }
 }
+
+public delegate NoiseSample NoiseMethod (Vector3 point, float frequency);
 
 public static class Noise {
 
-	public static NoiseMethod[] perlinMethods = {
-		Perlin3D
-	};
-
-	public static NoiseMethod[][] methods = {
-		perlinMethods
-	};
-
+    //lookup hash for noise values, 256 entries
 	private static int[] hash = {
 		151,160,137, 91, 90, 15,131, 13,201, 95, 96, 53,194,233,  7,225,
 		140, 36,103, 30, 69,142,  8, 99, 37,240, 21, 10, 23,190,  6,148,
@@ -54,6 +112,7 @@ public static class Noise {
 
 	private const int hashMask = 255;
 
+    //every normalized gradient vector possible for the 3D world, 16 total
 	private static Vector3[] gradients3D = {
 		new Vector3( 1f, 1f, 0f),
 		new Vector3(-1f, 1f, 0f),
@@ -67,7 +126,6 @@ public static class Noise {
 		new Vector3( 0f,-1f, 1f),
 		new Vector3( 0f, 1f,-1f),
 		new Vector3( 0f,-1f,-1f),
-		
 		new Vector3( 1f, 1f, 0f),
 		new Vector3(-1f, 1f, 0f),
 		new Vector3( 0f,-1f, 1f),
@@ -76,28 +134,32 @@ public static class Noise {
 	
 	private const int gradientsMask3D = 15;
 
-	private static float Dot (Vector2 g, float x, float y) {
+    //defining dot product 
+	private static float Dot (Vector2 g, float x, float y) 
+    {
 		return g.x * x + g.y * y;
 	}
-
-	private static float Dot (Vector3 g, float x, float y, float z) {
+    //defining dot product for all 3 dimmensions
+	private static float Dot (Vector3 g, float x, float y, float z) 
+    {
 		return g.x * x + g.y * y + g.z * z;
 	}
-	
-	private static float Smooth (float t) {
+    //smooth function uses 6t^5 - 15t^4 + 10t^3 because it has a first and 
+    //second derivative with a start and end point at zero which allows for
+    //no creases at the edges of different sample points
+	private static float Smooth (float t) 
+    {
 		return t * t * t * (t * (t * 6f - 15f) + 10f);
 	}
-
-	private static float SmoothDerivative (float t) {
+    //same as above but for the first derivative
+	private static float SmoothDerivative (float t) 
+    {
 		return 30f * t * t * (t * (t - 2f) + 1f);
 	}
 
-	private static float sqr2 = Mathf.Sqrt(2f);
-
-	private static float squaresToTriangles = (3f - Mathf.Sqrt(3f)) / 6f;
-	private static float trianglesToSquares = (Mathf.Sqrt(3f) - 1f) / 2f;
-
-
+	//The second to main 3D perlin noise function, it takes a frequency and a point
+    //a point and returns the noise value based on the lookup tables and gradients
+    //defined above. The frequency essentially denotes the octave
 	public static NoiseSample Perlin3D (Vector3 point, float frequency) {
 		point *= frequency;
 		int ix0 = Mathf.FloorToInt(point.x);
@@ -175,15 +237,17 @@ public static class Noise {
 		return sample;
 	}
 
-	public static NoiseSample Sum (NoiseMethod method, Vector3 point, float frequency, int octaves, float lacunarity, float persistence) {
-		NoiseSample sum = method(point, frequency);
+    //the main 3D perlin noise function. It takes all the params defining the perlin noise and the point at which 
+    //a noise value is being requested and repeatedly calls Perlin3D summing up the returned result. 
+	public static NoiseSample Sum (Vector3 point, float frequency, int octaves, float lacunarity, float persistence) {
+		NoiseSample sum = Perlin3D(point, frequency);
 		float amplitude = 1f;
 		float range = 1f;
 		for (int o = 1; o < octaves; o++) {
 			frequency *= lacunarity;
 			amplitude *= persistence;
 			range += amplitude;
-			sum += method(point, frequency) * amplitude;
+			sum += Perlin3D(point, frequency) * amplitude;
 		}
 		return sum * (1f / range);
 	}
