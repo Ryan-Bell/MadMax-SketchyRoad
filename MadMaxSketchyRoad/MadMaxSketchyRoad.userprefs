@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\TestParticles.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\OverlayTextureChanger.boo">
     <Files>
-      <File FileName="Assets\Scripts\TestParticles.cs" Line="66" Column="46" />
+      <File FileName="Assets\OverlayTextureChanger.boo" Line="10" Column="20" />
+      <File FileName="Assets\Scripts\TestParticles.cs" Line="66" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
