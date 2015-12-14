@@ -6,7 +6,7 @@ public class Explosion : MonoBehaviour {
     ParticleSystem.Particle[] particleArray;
     ParticleSystem system;
     public GameObject systemHolder;
-
+    
     //How many particles will initially be emitted
     public int emitCount = 4000;
 

@@ -7,10 +7,6 @@ namespace UnityStandardAssets.Vehicles.Car
     [RequireComponent(typeof (CarController))]
     public class CarAIControl : MonoBehaviour
     {
-
-        // This script provides input to the car controller in the same way that the user control script does.
-        // As such, it is really 'driving' the car, with no special physics or animation tricks to make the car behave properly.
-
         // "wandering" is used to give the cars a more human, less robotic feel. They can waver slightly
         // in speed and direction while driving towards their target.
 
@@ -47,7 +43,6 @@ namespace UnityStandardAssets.Vehicles.Car
             m_Rigidbody = GetComponent<Rigidbody>();
         }
 
-
         private void FixedUpdate()
         {
             if (m_Target == null || !m_Driving)
@@ -58,6 +53,7 @@ namespace UnityStandardAssets.Vehicles.Car
             }
             else
             {
+
                 Vector3 fwd = transform.forward;
                 if (m_Rigidbody.velocity.magnitude > m_CarController.MaxSpeed*0.1f)
                 {
@@ -83,10 +79,6 @@ namespace UnityStandardAssets.Vehicles.Car
                 desiredSpeed = Mathf.Lerp(m_CarController.MaxSpeed, m_CarController.MaxSpeed*m_CautiousSpeedFactor,
                                             cautiousnessRequired);
                          
-                        
-
-
-                
 
                 // Evasive action due to collision with other cars:
 
@@ -175,5 +167,6 @@ namespace UnityStandardAssets.Vehicles.Car
             m_Target = target;
             m_Driving = true;
         }
+
     }
 }
