@@ -1,0 +1,834 @@
+fileFormatVersion: 2
+guid: 07dee02ab9a1662459e3203f102360dc
+timeCreated: 1450079466
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Axle
+    100002: AxleBolts
+    100004: Barrel
+    100006: Barrel 1
+    100008: Barrel1
+    100010: Barrel1 1
+    100012: Barrel2
+    100014: Barrel2 1
+    100016: Blade
+    100018: Blade 1
+    100020: Blade1
+    100022: Blade1 1
+    100024: Blade2
+    100026: Blade2 1
+    100028: Blade3
+    100030: Blade3 1
+    100032: Blade4
+    100034: Bolt
+    100036: Bolt1
+    100038: Bolt10
+    100040: Bolt11
+    100042: Bolt12
+    100044: Bolt13
+    100046: Bolt14
+    100048: Bolt15
+    100050: Bolt16
+    100052: Bolt17
+    100054: Bolt2
+    100056: Bolt3
+    100058: Bolt4
+    100060: Bolt5
+    100062: Bolt6
+    100064: Bolt7
+    100066: Bolt8
+    100068: Bolt9
+    100070: BottomCap
+    100072: BottomCap 1
+    100074: BottomCap 2
+    100076: BottomCap 3
+    100078: BottomLink
+    100080: BottomLink 1
+    100082: BottomLink 2
+    100084: BottomLink 3
+    100086: Brake
+    100088: Brake1
+    100090: CarFrame
+    100092: CompressionArm
+    100094: CompressionArm 1
+    100096: CompressionArm 2
+    100098: CompressionArm 3
+    100100: CompressionCanister
+    100102: CompressionCanister 1
+    100104: CompressionCanister 2
+    100106: CompressionCanister 3
+    100108: Connection
+    100110: Connection1
+    100112: Connection2
+    100114: Connection3
+    100116: Connection4
+    100118: Connection5
+    100120: Connection6
+    100122: Connection7
+    100124: Drum
+    100126: Drum1
+    100128: Front1
+    100130: FrontAxle
+    100132: FrontAxle 1
+    100134: FrontEnd
+    100136: FrontEnd1
+    100138: FrontWheel
+    100140: FrontWheel1
+    100142: //RootNode
+    100144: Grill3
+    100146: group10
+    100148: group15
+    100150: group5
+    100152: group6
+    100154: group7
+    100156: group8
+    100158: group9
+    100160: LowerLights
+    100162: LowerLights 1
+    100164: pCube1
+    100166: pCube10
+    100168: pCube10 1
+    100170: pCube11
+    100172: pCube11 1
+    100174: pCube13
+    100176: pCube13 1
+    100178: pCube2
+    100180: pCube3
+    100182: pCube6
+    100184: pCylinder1
+    100186: pCylinder1 1
+    100188: pCylinder10
+    100190: pCylinder10 1
+    100192: pCylinder11
+    100194: pCylinder11 1
+    100196: pCylinder2
+    100198: pCylinder2 1
+    100200: pCylinder54
+    100202: pCylinder54 1
+    100204: pCylinder55
+    100206: pCylinder55 1
+    100208: pCylinder6
+    100210: pCylinder6 1
+    100212: pCylinder8
+    100214: pCylinder8 1
+    100216: pCylinder9
+    100218: pCylinder9 1
+    100220: polySurface1
+    100222: pSphere1
+    100224: pSphere1 1
+    100226: pTorus1
+    100228: pTorus1 1
+    100230: pTorus2
+    100232: pTorus2 1
+    100234: pTorus3
+    100236: pTorus3 1
+    100238: pTorus4
+    100240: pTorus4 1
+    100242: RearAxle1
+    100244: RearWheel
+    100246: RearWheel1
+    100248: RearWheel2
+    100250: RearWheel3
+    100252: SideRim
+    100254: SideRim 1
+    100256: Spring
+    100258: Spring 1
+    100260: Spring 2
+    100262: Spring 3
+    100264: Spring1
+    100266: Spring2
+    100268: Spring3
+    100270: Spring4
+    100272: SpringBolt
+    100274: SpringBolt 1
+    100276: SpringBolt 2
+    100278: SpringBolt 3
+    100280: SteeringBar
+    100282: SteeringBracket
+    100284: SteeringBracket1
+    100286: SupportBar
+    100288: SupportBar1
+    100290: SupportBar2
+    100292: SupportBar3
+    100294: SupportBar4
+    100296: SupportBar5
+    100298: SupportBar6
+    100300: SupportBar7
+    100302: SupportFace
+    100304: SupportFace1
+    100306: SupportStructure
+    100308: TopCap
+    100310: TopCap 1
+    100312: TopCap 2
+    100314: TopCap 3
+    100316: TopLink
+    100318: TopLink 1
+    100320: TopLink 2
+    100322: TopLink 3
+    100324: UpperLights
+    100326: UpperLights 1
+    400000: Axle
+    400002: AxleBolts
+    400004: Barrel
+    400006: Barrel 1
+    400008: Barrel1
+    400010: Barrel1 1
+    400012: Barrel2
+    400014: Barrel2 1
+    400016: Blade
+    400018: Blade 1
+    400020: Blade1
+    400022: Blade1 1
+    400024: Blade2
+    400026: Blade2 1
+    400028: Blade3
+    400030: Blade3 1
+    400032: Blade4
+    400034: Bolt
+    400036: Bolt1
+    400038: Bolt10
+    400040: Bolt11
+    400042: Bolt12
+    400044: Bolt13
+    400046: Bolt14
+    400048: Bolt15
+    400050: Bolt16
+    400052: Bolt17
+    400054: Bolt2
+    400056: Bolt3
+    400058: Bolt4
+    400060: Bolt5
+    400062: Bolt6
+    400064: Bolt7
+    400066: Bolt8
+    400068: Bolt9
+    400070: BottomCap
+    400072: BottomCap 1
+    400074: BottomCap 2
+    400076: BottomCap 3
+    400078: BottomLink
+    400080: BottomLink 1
+    400082: BottomLink 2
+    400084: BottomLink 3
+    400086: Brake
+    400088: Brake1
+    400090: CarFrame
+    400092: CompressionArm
+    400094: CompressionArm 1
+    400096: CompressionArm 2
+    400098: CompressionArm 3
+    400100: CompressionCanister
+    400102: CompressionCanister 1
+    400104: CompressionCanister 2
+    400106: CompressionCanister 3
+    400108: Connection
+    400110: Connection1
+    400112: Connection2
+    400114: Connection3
+    400116: Connection4
+    400118: Connection5
+    400120: Connection6
+    400122: Connection7
+    400124: Drum
+    400126: Drum1
+    400128: Front1
+    400130: FrontAxle
+    400132: FrontAxle 1
+    400134: FrontEnd
+    400136: FrontEnd1
+    400138: FrontWheel
+    400140: FrontWheel1
+    400142: //RootNode
+    400144: Grill3
+    400146: group10
+    400148: group15
+    400150: group5
+    400152: group6
+    400154: group7
+    400156: group8
+    400158: group9
+    400160: LowerLights
+    400162: LowerLights 1
+    400164: pCube1
+    400166: pCube10
+    400168: pCube10 1
+    400170: pCube11
+    400172: pCube11 1
+    400174: pCube13
+    400176: pCube13 1
+    400178: pCube2
+    400180: pCube3
+    400182: pCube6
+    400184: pCylinder1
+    400186: pCylinder1 1
+    400188: pCylinder10
+    400190: pCylinder10 1
+    400192: pCylinder11
+    400194: pCylinder11 1
+    400196: pCylinder2
+    400198: pCylinder2 1
+    400200: pCylinder54
+    400202: pCylinder54 1
+    400204: pCylinder55
+    400206: pCylinder55 1
+    400208: pCylinder6
+    400210: pCylinder6 1
+    400212: pCylinder8
+    400214: pCylinder8 1
+    400216: pCylinder9
+    400218: pCylinder9 1
+    400220: polySurface1
+    400222: pSphere1
+    400224: pSphere1 1
+    400226: pTorus1
+    400228: pTorus1 1
+    400230: pTorus2
+    400232: pTorus2 1
+    400234: pTorus3
+    400236: pTorus3 1
+    400238: pTorus4
+    400240: pTorus4 1
+    400242: RearAxle1
+    400244: RearWheel
+    400246: RearWheel1
+    400248: RearWheel2
+    400250: RearWheel3
+    400252: SideRim
+    400254: SideRim 1
+    400256: Spring
+    400258: Spring 1
+    400260: Spring 2
+    400262: Spring 3
+    400264: Spring1
+    400266: Spring2
+    400268: Spring3
+    400270: Spring4
+    400272: SpringBolt
+    400274: SpringBolt 1
+    400276: SpringBolt 2
+    400278: SpringBolt 3
+    400280: SteeringBar
+    400282: SteeringBracket
+    400284: SteeringBracket1
+    400286: SupportBar
+    400288: SupportBar1
+    400290: SupportBar2
+    400292: SupportBar3
+    400294: SupportBar4
+    400296: SupportBar5
+    400298: SupportBar6
+    400300: SupportBar7
+    400302: SupportFace
+    400304: SupportFace1
+    400306: SupportStructure
+    400308: TopCap
+    400310: TopCap 1
+    400312: TopCap 2
+    400314: TopCap 3
+    400316: TopLink
+    400318: TopLink 1
+    400320: TopLink 2
+    400322: TopLink 3
+    400324: UpperLights
+    400326: UpperLights 1
+    2300000: Axle
+    2300002: Barrel
+    2300004: Barrel 1
+    2300006: Barrel1
+    2300008: Barrel1 1
+    2300010: Barrel2
+    2300012: Barrel2 1
+    2300014: Blade
+    2300016: Blade 1
+    2300018: Blade1
+    2300020: Blade1 1
+    2300022: Blade2
+    2300024: Blade2 1
+    2300026: Blade3
+    2300028: Blade3 1
+    2300030: Blade4
+    2300032: Bolt
+    2300034: Bolt1
+    2300036: Bolt10
+    2300038: Bolt11
+    2300040: Bolt12
+    2300042: Bolt13
+    2300044: Bolt14
+    2300046: Bolt15
+    2300048: Bolt16
+    2300050: Bolt17
+    2300052: Bolt2
+    2300054: Bolt3
+    2300056: Bolt4
+    2300058: Bolt5
+    2300060: Bolt6
+    2300062: Bolt7
+    2300064: Bolt8
+    2300066: Bolt9
+    2300068: BottomCap
+    2300070: BottomCap 1
+    2300072: BottomCap 2
+    2300074: BottomCap 3
+    2300076: BottomLink
+    2300078: BottomLink 1
+    2300080: BottomLink 2
+    2300082: BottomLink 3
+    2300084: Brake
+    2300086: Brake1
+    2300088: CarFrame
+    2300090: CompressionArm
+    2300092: CompressionArm 1
+    2300094: CompressionArm 2
+    2300096: CompressionArm 3
+    2300098: CompressionCanister
+    2300100: CompressionCanister 1
+    2300102: CompressionCanister 2
+    2300104: CompressionCanister 3
+    2300106: Connection
+    2300108: Connection1
+    2300110: Connection2
+    2300112: Connection3
+    2300114: Connection4
+    2300116: Connection5
+    2300118: Connection6
+    2300120: Connection7
+    2300122: Drum
+    2300124: Drum1
+    2300126: FrontAxle 1
+    2300128: FrontWheel
+    2300130: FrontWheel1
+    2300132: Grill3
+    2300134: LowerLights
+    2300136: LowerLights 1
+    2300138: pCube1
+    2300140: pCube10
+    2300142: pCube10 1
+    2300144: pCube11
+    2300146: pCube11 1
+    2300148: pCube13
+    2300150: pCube13 1
+    2300152: pCube2
+    2300154: pCube3
+    2300156: pCube6
+    2300158: pCylinder1
+    2300160: pCylinder1 1
+    2300162: pCylinder10
+    2300164: pCylinder10 1
+    2300166: pCylinder11
+    2300168: pCylinder11 1
+    2300170: pCylinder2
+    2300172: pCylinder2 1
+    2300174: pCylinder54
+    2300176: pCylinder54 1
+    2300178: pCylinder55
+    2300180: pCylinder55 1
+    2300182: pCylinder6
+    2300184: pCylinder6 1
+    2300186: pCylinder8
+    2300188: pCylinder8 1
+    2300190: pCylinder9
+    2300192: pCylinder9 1
+    2300194: polySurface1
+    2300196: pSphere1
+    2300198: pSphere1 1
+    2300200: pTorus1
+    2300202: pTorus1 1
+    2300204: pTorus2
+    2300206: pTorus2 1
+    2300208: pTorus3
+    2300210: pTorus3 1
+    2300212: pTorus4
+    2300214: pTorus4 1
+    2300216: RearWheel
+    2300218: RearWheel1
+    2300220: RearWheel2
+    2300222: RearWheel3
+    2300224: SideRim
+    2300226: SideRim 1
+    2300228: Spring
+    2300230: Spring 1
+    2300232: Spring 2
+    2300234: Spring 3
+    2300236: SpringBolt
+    2300238: SpringBolt 1
+    2300240: SpringBolt 2
+    2300242: SpringBolt 3
+    2300244: SteeringBar
+    2300246: SteeringBracket
+    2300248: SteeringBracket1
+    2300250: SupportBar
+    2300252: SupportBar1
+    2300254: SupportBar2
+    2300256: SupportBar3
+    2300258: SupportBar4
+    2300260: SupportBar5
+    2300262: SupportBar6
+    2300264: SupportBar7
+    2300266: SupportFace
+    2300268: SupportFace1
+    2300270: TopCap
+    2300272: TopCap 1
+    2300274: TopCap 2
+    2300276: TopCap 3
+    2300278: TopLink
+    2300280: TopLink 1
+    2300282: TopLink 2
+    2300284: TopLink 3
+    2300286: UpperLights
+    2300288: UpperLights 1
+    3300000: Axle
+    3300002: Barrel
+    3300004: Barrel 1
+    3300006: Barrel1
+    3300008: Barrel1 1
+    3300010: Barrel2
+    3300012: Barrel2 1
+    3300014: Blade
+    3300016: Blade 1
+    3300018: Blade1
+    3300020: Blade1 1
+    3300022: Blade2
+    3300024: Blade2 1
+    3300026: Blade3
+    3300028: Blade3 1
+    3300030: Blade4
+    3300032: Bolt
+    3300034: Bolt1
+    3300036: Bolt10
+    3300038: Bolt11
+    3300040: Bolt12
+    3300042: Bolt13
+    3300044: Bolt14
+    3300046: Bolt15
+    3300048: Bolt16
+    3300050: Bolt17
+    3300052: Bolt2
+    3300054: Bolt3
+    3300056: Bolt4
+    3300058: Bolt5
+    3300060: Bolt6
+    3300062: Bolt7
+    3300064: Bolt8
+    3300066: Bolt9
+    3300068: BottomCap
+    3300070: BottomCap 1
+    3300072: BottomCap 2
+    3300074: BottomCap 3
+    3300076: BottomLink
+    3300078: BottomLink 1
+    3300080: BottomLink 2
+    3300082: BottomLink 3
+    3300084: Brake
+    3300086: Brake1
+    3300088: CarFrame
+    3300090: CompressionArm
+    3300092: CompressionArm 1
+    3300094: CompressionArm 2
+    3300096: CompressionArm 3
+    3300098: CompressionCanister
+    3300100: CompressionCanister 1
+    3300102: CompressionCanister 2
+    3300104: CompressionCanister 3
+    3300106: Connection
+    3300108: Connection1
+    3300110: Connection2
+    3300112: Connection3
+    3300114: Connection4
+    3300116: Connection5
+    3300118: Connection6
+    3300120: Connection7
+    3300122: Drum
+    3300124: Drum1
+    3300126: FrontAxle 1
+    3300128: FrontWheel
+    3300130: FrontWheel1
+    3300132: Grill3
+    3300134: LowerLights
+    3300136: LowerLights 1
+    3300138: pCube1
+    3300140: pCube10
+    3300142: pCube10 1
+    3300144: pCube11
+    3300146: pCube11 1
+    3300148: pCube13
+    3300150: pCube13 1
+    3300152: pCube2
+    3300154: pCube3
+    3300156: pCube6
+    3300158: pCylinder1
+    3300160: pCylinder1 1
+    3300162: pCylinder10
+    3300164: pCylinder10 1
+    3300166: pCylinder11
+    3300168: pCylinder11 1
+    3300170: pCylinder2
+    3300172: pCylinder2 1
+    3300174: pCylinder54
+    3300176: pCylinder54 1
+    3300178: pCylinder55
+    3300180: pCylinder55 1
+    3300182: pCylinder6
+    3300184: pCylinder6 1
+    3300186: pCylinder8
+    3300188: pCylinder8 1
+    3300190: pCylinder9
+    3300192: pCylinder9 1
+    3300194: polySurface1
+    3300196: pSphere1
+    3300198: pSphere1 1
+    3300200: pTorus1
+    3300202: pTorus1 1
+    3300204: pTorus2
+    3300206: pTorus2 1
+    3300208: pTorus3
+    3300210: pTorus3 1
+    3300212: pTorus4
+    3300214: pTorus4 1
+    3300216: RearWheel
+    3300218: RearWheel1
+    3300220: RearWheel2
+    3300222: RearWheel3
+    3300224: SideRim
+    3300226: SideRim 1
+    3300228: Spring
+    3300230: Spring 1
+    3300232: Spring 2
+    3300234: Spring 3
+    3300236: SpringBolt
+    3300238: SpringBolt 1
+    3300240: SpringBolt 2
+    3300242: SpringBolt 3
+    3300244: SteeringBar
+    3300246: SteeringBracket
+    3300248: SteeringBracket1
+    3300250: SupportBar
+    3300252: SupportBar1
+    3300254: SupportBar2
+    3300256: SupportBar3
+    3300258: SupportBar4
+    3300260: SupportBar5
+    3300262: SupportBar6
+    3300264: SupportBar7
+    3300266: SupportFace
+    3300268: SupportFace1
+    3300270: TopCap
+    3300272: TopCap 1
+    3300274: TopCap 2
+    3300276: TopCap 3
+    3300278: TopLink
+    3300280: TopLink 1
+    3300282: TopLink 2
+    3300284: TopLink 3
+    3300286: UpperLights
+    3300288: UpperLights 1
+    4300000: RearWheel
+    4300002: RearWheel1
+    4300004: RearWheel2
+    4300006: RearWheel3
+    4300008: FrontWheel
+    4300010: FrontWheel1
+    4300012: CarFrame
+    4300014: Connection
+    4300016: SupportBar
+    4300018: SupportBar6
+    4300020: Connection2
+    4300022: Connection1
+    4300024: SupportBar1
+    4300026: SupportBar7
+    4300028: Connection3
+    4300030: SupportFace1
+    4300032: SupportBar3
+    4300034: SupportBar4
+    4300036: Connection7
+    4300038: Connection6
+    4300040: Connection4
+    4300042: Connection5
+    4300044: SupportBar5
+    4300046: SupportBar2
+    4300048: SupportFace
+    4300050: Bolt
+    4300052: Bolt1
+    4300054: Bolt3
+    4300056: Bolt2
+    4300058: Bolt4
+    4300060: Bolt5
+    4300062: Bolt6
+    4300064: Bolt7
+    4300066: Bolt8
+    4300068: Bolt9
+    4300070: Bolt10
+    4300072: Bolt11
+    4300074: Bolt12
+    4300076: Bolt13
+    4300078: Bolt14
+    4300080: Bolt15
+    4300082: Bolt16
+    4300084: Bolt17
+    4300086: Drum
+    4300088: Brake1
+    4300090: Axle
+    4300092: Brake
+    4300094: Drum1
+    4300096: FrontAxle
+    4300098: SteeringBar
+    4300100: SteeringBracket
+    4300102: SteeringBracket1
+    4300104: CompressionCanister
+    4300106: Spring
+    4300108: CompressionArm
+    4300110: TopCap
+    4300112: BottomCap
+    4300114: TopLink
+    4300116: SpringBolt
+    4300118: BottomLink
+    4300120: CompressionCanister
+    4300122: Spring
+    4300124: CompressionArm
+    4300126: TopCap
+    4300128: BottomCap
+    4300130: TopLink
+    4300132: SpringBolt
+    4300134: BottomLink
+    4300136: CompressionCanister
+    4300138: Spring
+    4300140: CompressionArm
+    4300142: TopCap
+    4300144: BottomCap
+    4300146: TopLink
+    4300148: SpringBolt
+    4300150: BottomLink
+    4300152: CompressionCanister
+    4300154: Spring
+    4300156: CompressionArm
+    4300158: TopCap
+    4300160: BottomCap
+    4300162: TopLink
+    4300164: SpringBolt
+    4300166: BottomLink
+    4300168: UpperLights
+    4300170: Blade
+    4300172: LowerLights
+    4300174: SideRim
+    4300176: Blade3
+    4300178: Blade2
+    4300180: Blade1
+    4300182: Blade4
+    4300184: UpperLights
+    4300186: Blade
+    4300188: LowerLights
+    4300190: SideRim
+    4300192: Blade3
+    4300194: Blade2
+    4300196: Blade1
+    4300198: Grill3
+    4300200: pCube1
+    4300202: pCube2
+    4300204: pCube3
+    4300206: pCube6
+    4300208: Barrel
+    4300210: Barrel1
+    4300212: Barrel2
+    4300214: pCylinder6
+    4300216: pCube10
+    4300218: pCylinder8
+    4300220: pCylinder9
+    4300222: pCylinder10
+    4300224: pCylinder11
+    4300226: pCube11
+    4300228: pTorus1
+    4300230: pTorus2
+    4300232: pTorus3
+    4300234: pTorus4
+    4300236: pCube13
+    4300238: Barrel
+    4300240: Barrel1
+    4300242: Barrel2
+    4300244: pCylinder6
+    4300246: pCube10
+    4300248: pCylinder8
+    4300250: pCylinder9
+    4300252: pCylinder10
+    4300254: pCylinder11
+    4300256: pCube11
+    4300258: pTorus1
+    4300260: pTorus2
+    4300262: pTorus3
+    4300264: pTorus4
+    4300266: pCube13
+    4300268: pSphere1
+    4300270: pCylinder2
+    4300272: pCylinder1
+    4300274: pSphere1
+    4300276: pCylinder2
+    4300278: pCylinder1
+    4300280: pCylinder54
+    4300282: pCylinder55
+    4300284: pCylinder54
+    4300286: pCylinder55
+    4300288: polySurface1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 15
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
