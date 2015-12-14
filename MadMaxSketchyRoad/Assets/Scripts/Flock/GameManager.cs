@@ -2,7 +2,6 @@
 using UnityEngine;
 using System.Collections;
 
-//add using System.Collections.Generic; to use the generic list format
 using System.Collections.Generic;
 
 public class GameManager : MonoBehaviour {
@@ -14,7 +13,7 @@ public class GameManager : MonoBehaviour {
     public GameObject dudePrefab;
     public GameObject targetPrefab;
     public GameObject obstaclePrefab;
-
+    public Camera camera;
 	private Vector3 flockCentroid;
 	private Vector3 flockDirection;
     private GameObject[] obstacles;
@@ -36,11 +35,7 @@ public class GameManager : MonoBehaviour {
 	}
 
 	void Start () {
-        
-        //make a target at (0, 0, 0) with no rotation
         Vector3 pos = new Vector3(0, 0, 0);
-        //no rotation = Quaternion.identity
-        //target = (GameObject)Instantiate(targetPrefab, pos, Quaternion.identity);
 
 		flockers = new GameObject[10];
 		for (int i = 0; i < 10; i++) {
@@ -64,7 +59,7 @@ public class GameManager : MonoBehaviour {
 			Quaternion rot = Quaternion.Euler(new Vector3(0, Random.Range(0,180), 0));
 			obstacles[i] = (GameObject)Instantiate(obstaclePrefab, pos, rot);
 		}*/
-		//Camera.main.GetComponent<SmoothFollow>().target = this.transform;
+		camera.GetComponent<SmoothFollow>().target = this.transform;
 	}
 
 

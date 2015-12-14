@@ -17,6 +17,12 @@ namespace UnityStandardAssets.Vehicles.Car
         //int index = 0;
         public Explosion explosion;
         public GameObject marker;
+        float lasttime;
+
+
+        public Camera[] cameras;
+        private int currentCameraIndex;
+
         // Use this for initialization
         void Start()
         {
@@ -39,6 +45,23 @@ namespace UnityStandardAssets.Vehicles.Car
                 GameObject.Instantiate(marker);
                 marker.transform.position = waypointlist[i];
             }
+            lasttime = 0;
+
+
+
+            //In start initialize both
+            currentCameraIndex = 0;
+            //Turn all cameras off, except the first default one
+            for (int i=1; i<cameras.Length; i++)
+            {
+                cameras[i].gameObject.SetActive(false);
+            }
+    
+            //If any cameras were added to the controller, enable the first one
+            if (cameras.Length>0)
+            {
+                cameras [0].gameObject.SetActive (true);
+            }
         }
 
         //The basic steps for path following:
@@ -48,14 +71,6 @@ namespace UnityStandardAssets.Vehicles.Car
         //move towards the closest valid normal point
         void Update()
         {
-            /*if (Vector3.Distance(waypointholder.position, car.transform.position) < 3)
-            {
-                index++;
-                index %= 10;
-                waypointholder.position = waypointlist[index];
-                car.SetTarget(waypointholder);
-                GameObject.Instantiate(explosion);
-            }*/
             Vector3 futurepos = car.transform.position + car.m_Rigidbody.velocity;
             float distanceRecord = 20000000000;
             for (int i = 0; i < 9; i++)
@@ -70,6 +85,27 @@ namespace UnityStandardAssets.Vehicles.Car
                 {
                     distanceRecord = tempDist;
                     waypointholder.position = normalPoint;
+                }
+            }
+            //create explosion behind car every five seconds
+            if(Time.time > lasttime + 5){
+                GameObject.Instantiate(explosion, car.transform.position - car.m_Rigidbody.velocity / 2, Quaternion.identity);
+                lasttime = Time.time;
+            }
+
+            if (Input.GetKeyDown(KeyCode.C)) //can be any key you want
+            {
+                currentCameraIndex++;
+                if (currentCameraIndex < cameras.Length)
+                {
+                    cameras[currentCameraIndex - 1].gameObject.SetActive(false);
+                    cameras[currentCameraIndex].gameObject.SetActive(true);
+                }
+                else
+                {
+                    cameras[currentCameraIndex - 1].gameObject.SetActive(false);
+                    currentCameraIndex = 0;
+                    cameras[currentCameraIndex].gameObject.SetActive(true);
                 }
             }
             return;
