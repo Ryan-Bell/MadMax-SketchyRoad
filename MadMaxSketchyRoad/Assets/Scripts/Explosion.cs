@@ -108,6 +108,10 @@ public class Explosion : MonoBehaviour {
 
         //set particles
         system.SetParticles(particleArray, system.particleCount);
+        if (system.particleCount == 0)
+        {
+            Destroy(this.gameObject);
+        }
 	}
 
     /*This method handles the turbulence type effect that I want to induce on the initial

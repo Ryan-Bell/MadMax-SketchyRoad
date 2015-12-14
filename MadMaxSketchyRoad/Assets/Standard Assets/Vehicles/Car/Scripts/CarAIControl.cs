@@ -7,13 +7,6 @@ namespace UnityStandardAssets.Vehicles.Car
     [RequireComponent(typeof (CarController))]
     public class CarAIControl : MonoBehaviour
     {
-        public enum BrakeCondition
-        {
-            NeverBrake,                 // the car simply accelerates at full throttle all the time.
-            TargetDirectionDifference,  // the car will brake according to the upcoming change in direction of the target. Useful for route-based AI, slowing for corners.
-            TargetDistance,             // the car will brake as it approaches its target, regardless of the target's direction. Useful if you want the car to
-                                        // head for a stationary target and come to rest when it arrives there.
-        }
 
         // This script provides input to the car controller in the same way that the user control script does.
         // As such, it is really 'driving' the car, with no special physics or animation tricks to make the car behave properly.
@@ -32,11 +25,8 @@ namespace UnityStandardAssets.Vehicles.Car
         [SerializeField] private float m_LateralWanderSpeed = 0.1f;                               // how fast the lateral wandering will fluctuate
         [SerializeField] [Range(0, 1)] private float m_AccelWanderAmount = 0.1f;                  // how much the cars acceleration will wander
         [SerializeField] private float m_AccelWanderSpeed = 0.1f;                                 // how fast the cars acceleration wandering will fluctuate
-        [SerializeField] private BrakeCondition m_BrakeCondition = BrakeCondition.TargetDistance; // what should the AI consider when accelerating/braking?
         [SerializeField] private bool m_Driving;                                                  // whether the AI is currently actively driving or stopped.
         [SerializeField] private Transform m_Target;                                              // 'target' the target object to aim for.
-        [SerializeField] private bool m_StopWhenTargetReached;                                    // should we stop driving when we reach the target?
-        [SerializeField] private float m_ReachTargetThreshold = 2;                                // proximity to target to consider we 'reached' it, and stop driving.
 
         private float m_RandomPerlin;             // A random value for the car to base its wander on (so that AI cars don't all wander in the same pattern)
         private CarController m_CarController;    // Reference to actual car controller we are controlling
@@ -77,50 +67,26 @@ namespace UnityStandardAssets.Vehicles.Car
                 float desiredSpeed = m_CarController.MaxSpeed;
 
                 // now it's time to decide if we should be slowing down...
-                switch (m_BrakeCondition)
-                {
-                    case BrakeCondition.TargetDirectionDifference:
-                        {
-                            // the car will brake according to the upcoming change in direction of the target. Useful for route-based AI, slowing for corners.
 
-                            // check out the angle of our target compared to the current direction of the car
-                            float approachingCornerAngle = Vector3.Angle(m_Target.forward, fwd);
+                // the car will brake according to the upcoming change in direction of the target. Useful for route-based AI, slowing for corners.
 
-                            // also consider the current amount we're turning, multiplied up and then compared in the same way as an upcoming corner angle
-                            float spinningAngle = m_Rigidbody.angularVelocity.magnitude*m_CautiousAngularVelocityFactor;
+                // check out the angle of our target compared to the current direction of the car
+                float approachingCornerAngle = Vector3.Angle(m_Target.forward, fwd);
 
-                            // if it's different to our current angle, we need to be cautious (i.e. slow down) a certain amount
-                            float cautiousnessRequired = Mathf.InverseLerp(0, m_CautiousMaxAngle,
-                                                                           Mathf.Max(spinningAngle,
-                                                                                     approachingCornerAngle));
-                            desiredSpeed = Mathf.Lerp(m_CarController.MaxSpeed, m_CarController.MaxSpeed*m_CautiousSpeedFactor,
-                                                      cautiousnessRequired);
-                            break;
-                        }
+                // also consider the current amount we're turning, multiplied up and then compared in the same way as an upcoming corner angle
+                float spinningAngle = m_Rigidbody.angularVelocity.magnitude*m_CautiousAngularVelocityFactor;
 
-                    case BrakeCondition.TargetDistance:
-                        {
-                            // the car will brake as it approaches its target, regardless of the target's direction. Useful if you want the car to
-                            // head for a stationary target and come to rest when it arrives there.
+                // if it's different to our current angle, we need to be cautious (i.e. slow down) a certain amount
+                float cautiousnessRequired = Mathf.InverseLerp(0, m_CautiousMaxAngle,
+                                                                Mathf.Max(spinningAngle,
+                                                                            approachingCornerAngle));
+                desiredSpeed = Mathf.Lerp(m_CarController.MaxSpeed, m_CarController.MaxSpeed*m_CautiousSpeedFactor,
+                                            cautiousnessRequired);
+                         
+                        
 
-                            // check out the distance to target
-                            Vector3 delta = m_Target.position - transform.position;
-                            float distanceCautiousFactor = Mathf.InverseLerp(m_CautiousMaxDistance, 0, delta.magnitude);
 
-                            // also consider the current amount we're turning, multiplied up and then compared in the same way as an upcoming corner angle
-                            float spinningAngle = m_Rigidbody.angularVelocity.magnitude*m_CautiousAngularVelocityFactor;
-
-                            // if it's different to our current angle, we need to be cautious (i.e. slow down) a certain amount
-                            float cautiousnessRequired = Mathf.Max(
-                                Mathf.InverseLerp(0, m_CautiousMaxAngle, spinningAngle), distanceCautiousFactor);
-                            desiredSpeed = Mathf.Lerp(m_CarController.MaxSpeed, m_CarController.MaxSpeed*m_CautiousSpeedFactor,
-                                                      cautiousnessRequired);
-                            break;
-                        }
-
-                    case BrakeCondition.NeverBrake:
-                        break;
-                }
+                
 
                 // Evasive action due to collision with other cars:
 
@@ -169,12 +135,6 @@ namespace UnityStandardAssets.Vehicles.Car
 
                 // feed input to the car controller.
                 m_CarController.Move(steer, accel, accel, 0f);
-
-                // if appropriate, stop driving when we're close enough to the target.
-                if (m_StopWhenTargetReached && localTarget.magnitude < m_ReachTargetThreshold)
-                {
-                    m_Driving = false;
-                }
             }
         }
 
@@ -210,8 +170,6 @@ namespace UnityStandardAssets.Vehicles.Car
                 }
             }
         }
-
-
         public void SetTarget(Transform target)
         {
             m_Target = target;

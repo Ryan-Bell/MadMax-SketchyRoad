@@ -41,7 +41,8 @@ namespace UnityStandardAssets.Vehicles.Car
         public float maxRolloffDistance = 500;                                      // The maximum distance where rollof starts to take place
         public float dopplerLevel = 1;                                              // The mount of doppler effect used in the audio
         public bool useDoppler = true;                                              // Toggle for using doppler
-
+        [Range(0,1.0f)]
+        public float masterVolume = .9f;
         private AudioSource m_LowAccel; // Source for the low acceleration sounds
         private AudioSource m_LowDecel; // Source for the low deceleration sounds
         private AudioSource m_HighAccel; // Source for the high acceleration sounds
@@ -141,10 +142,10 @@ namespace UnityStandardAssets.Vehicles.Car
                     decFade = 1 - ((1 - decFade)*(1 - decFade));
 
                     // adjust the source volumes based on the fade values
-                    m_LowAccel.volume = lowFade*accFade;
-                    m_LowDecel.volume = lowFade*decFade;
-                    m_HighAccel.volume = highFade*accFade;
-                    m_HighDecel.volume = highFade*decFade;
+                    m_LowAccel.volume = lowFade*accFade*masterVolume;
+                    m_LowDecel.volume = lowFade * decFade * masterVolume;
+                    m_HighAccel.volume = highFade * accFade * masterVolume;
+                    m_HighDecel.volume = highFade * decFade * masterVolume;
 
                     // adjust the doppler levels
                     m_HighAccel.dopplerLevel = useDoppler ? dopplerLevel : 0;
