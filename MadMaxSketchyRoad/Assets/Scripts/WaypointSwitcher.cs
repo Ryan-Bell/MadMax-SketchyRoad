@@ -16,23 +16,29 @@ namespace UnityStandardAssets.Vehicles.Car
         public Transform waypointholder;
         //int index = 0;
         public Explosion explosion;
+        public GameObject marker;
         // Use this for initialization
         void Start()
         {
-            waypointlist[0] = new Vector3(0, 0, 50);
-            waypointlist[1] = new Vector3(30, 0, 40);
-            waypointlist[2] = new Vector3(40, 0, 10);
-            waypointlist[3] = new Vector3(30, 0, -30);
-            waypointlist[4] = new Vector3(10, 0, -50);
-            waypointlist[5] = new Vector3(-10, 0, -20);
-            waypointlist[6] = new Vector3(-30, 0, -30);
-            waypointlist[7] = new Vector3(-30, 0, -10);
-            waypointlist[8] = new Vector3(-10, 0, 10);
-            waypointlist[9] = new Vector3(-20, 0, 30);
+            waypointlist[0] = new Vector3(-20.6f, 0f, 126.2f);
+            waypointlist[1] = new Vector3(35.6f, 0f, 138.8f);
+            waypointlist[2] = new Vector3(78.7f, 0f, 105.3f);
+            waypointlist[3] = new Vector3(98.4f, 0f, 43.9f);
+            waypointlist[4] = new Vector3(75.8f , 0f, -13.3f);
+            waypointlist[5] = new Vector3(28.4f, 0f, -18.4f);
+            waypointlist[6] = new Vector3(-4.2f, 0f, -2.3f);
+            waypointlist[7] = new Vector3(-18.7f, 0f, 26f);
+            waypointlist[8] = new Vector3(-31.6f, 0f, 57.4f);
+            waypointlist[9] = new Vector3(-30f, 0f, 95f);
             carai = GetComponent(typeof(CarAIControl)) as CarAIControl;
             car = carai.GetComponent(typeof(CarController)) as CarController;
             waypointholder.position = waypointlist[0];
             carai.SetTarget(waypointholder);
+            for (int i = 0; i < 10; i++)
+            {
+                GameObject.Instantiate(marker);
+                marker.transform.position = waypointlist[i];
+            }
         }
 
         //The basic steps for path following:
@@ -51,7 +57,7 @@ namespace UnityStandardAssets.Vehicles.Car
                 GameObject.Instantiate(explosion);
             }*/
             Vector3 futurepos = car.transform.position + car.m_Rigidbody.velocity;
-            float distanceRecord = 2000000;
+            float distanceRecord = 20000000000;
             for (int i = 0; i < 9; i++)
             {
                 Vector3 normalPoint = getNormalPoint(futurepos, waypointlist[i], waypointlist[i + 1]);

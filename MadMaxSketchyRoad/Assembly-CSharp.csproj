@@ -46,7 +46,12 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Explosion.cs" />
+     <Compile Include="Assets\Scripts\Flock\GameManager.cs" />
+     <Compile Include="Assets\Scripts\Flock\ObstacleScript.cs" />
+     <Compile Include="Assets\Scripts\Flock\Seeker.cs" />
+     <Compile Include="Assets\Scripts\Flock\Vehicle.cs" />
      <Compile Include="Assets\Scripts\Noise.cs" />
+     <Compile Include="Assets\Scripts\SmoothFollow.cs" />
      <Compile Include="Assets\Scripts\TestParticles.cs" />
      <Compile Include="Assets\Scripts\WaypointSwitcher.cs" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />

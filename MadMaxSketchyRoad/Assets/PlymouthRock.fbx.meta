@@ -1,0 +1,1917 @@
+fileFormatVersion: 2
+guid: 0b319d4b769110a40bed4f1cc0e86be6
+timeCreated: 1450103172
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: buggy
+    100002: group16
+    100004: group17
+    100006: group18
+    100008: group19
+    100010: group20
+    100012: group21
+    100014: group22
+    100016: group23
+    100018: group24
+    100020: group25
+    100022: group26
+    100024: group27
+    100026: group28
+    100028: group29
+    100030: group30
+    100032: group31
+    100034: group32
+    100036: group33
+    100038: group34
+    100040: group35
+    100042: group36_pPyramid29
+    100044: group36_pPyramid30
+    100046: group36_pPyramid31
+    100048: group36_pPyramid34
+    100050: //RootNode
+    100052: polySurface10
+    100054: polySurface100
+    100056: polySurface101
+    100058: polySurface102
+    100060: polySurface103
+    100062: polySurface104
+    100064: polySurface105
+    100066: polySurface106
+    100068: polySurface107
+    100070: polySurface108
+    100072: polySurface109
+    100074: polySurface11
+    100076: polySurface110
+    100078: polySurface111
+    100080: polySurface112
+    100082: polySurface113
+    100084: polySurface114
+    100086: polySurface115
+    100088: polySurface116
+    100090: polySurface117
+    100092: polySurface118
+    100094: polySurface119
+    100096: polySurface12
+    100098: polySurface120
+    100100: polySurface121
+    100102: polySurface122
+    100104: polySurface123
+    100106: polySurface124
+    100108: polySurface125
+    100110: polySurface126
+    100112: polySurface127
+    100114: polySurface128
+    100116: polySurface129
+    100118: polySurface13
+    100120: polySurface130
+    100122: polySurface14
+    100124: polySurface15
+    100126: polySurface16
+    100128: polySurface17
+    100130: polySurface18
+    100132: polySurface19
+    100134: polySurface2
+    100136: polySurface20
+    100138: polySurface21
+    100140: polySurface22
+    100142: polySurface23
+    100144: polySurface24
+    100146: polySurface25
+    100148: polySurface26
+    100150: polySurface27
+    100152: polySurface28
+    100154: polySurface29
+    100156: polySurface3
+    100158: polySurface30
+    100160: polySurface31
+    100162: polySurface32
+    100164: polySurface33
+    100166: polySurface34
+    100168: polySurface35
+    100170: polySurface36
+    100172: polySurface37
+    100174: polySurface38
+    100176: polySurface39
+    100178: polySurface4
+    100180: polySurface40
+    100182: polySurface41
+    100184: polySurface42
+    100186: polySurface43
+    100188: polySurface44
+    100190: polySurface45
+    100192: polySurface46
+    100194: polySurface47
+    100196: polySurface48
+    100198: polySurface49
+    100200: polySurface5
+    100202: polySurface50
+    100204: polySurface51
+    100206: polySurface52
+    100208: polySurface53
+    100210: polySurface54
+    100212: polySurface55
+    100214: polySurface56
+    100216: polySurface57
+    100218: polySurface58
+    100220: polySurface59
+    100222: polySurface6
+    100224: polySurface60
+    100226: polySurface61
+    100228: polySurface62
+    100230: polySurface63
+    100232: polySurface64
+    100234: polySurface65
+    100236: polySurface66
+    100238: polySurface67
+    100240: polySurface68
+    100242: polySurface69
+    100244: polySurface7
+    100246: polySurface70
+    100248: polySurface71
+    100250: polySurface72
+    100252: polySurface73
+    100254: polySurface74
+    100256: polySurface75
+    100258: polySurface76
+    100260: polySurface77
+    100262: polySurface78
+    100264: polySurface79
+    100266: polySurface8
+    100268: polySurface80
+    100270: polySurface81
+    100272: polySurface82
+    100274: polySurface83
+    100276: polySurface84
+    100278: polySurface85
+    100280: polySurface86
+    100282: polySurface87
+    100284: polySurface88
+    100286: polySurface89
+    100288: polySurface9
+    100290: polySurface90
+    100292: polySurface91
+    100294: polySurface92
+    100296: polySurface93
+    100298: polySurface94
+    100300: polySurface95
+    100302: polySurface96
+    100304: polySurface97
+    100306: polySurface98
+    100308: polySurface99
+    100310: pPyramid1
+    100312: pPyramid10
+    100314: pPyramid11
+    100316: pPyramid12
+    100318: pPyramid13
+    100320: pPyramid14
+    100322: pPyramid15
+    100324: pPyramid16
+    100326: pPyramid17
+    100328: pPyramid18
+    100330: pPyramid19
+    100332: pPyramid2
+    100334: pPyramid2 1
+    100336: pPyramid2 10
+    100338: pPyramid2 11
+    100340: pPyramid2 12
+    100342: pPyramid2 13
+    100344: pPyramid2 14
+    100346: pPyramid2 15
+    100348: pPyramid2 16
+    100350: pPyramid2 17
+    100352: pPyramid2 18
+    100354: pPyramid2 19
+    100356: pPyramid2 2
+    100358: pPyramid2 3
+    100360: pPyramid2 4
+    100362: pPyramid2 5
+    100364: pPyramid2 6
+    100366: pPyramid2 7
+    100368: pPyramid2 8
+    100370: pPyramid2 9
+    100372: pPyramid20
+    100374: pPyramid21
+    100376: pPyramid21 1
+    100378: pPyramid21 10
+    100380: pPyramid21 11
+    100382: pPyramid21 12
+    100384: pPyramid21 13
+    100386: pPyramid21 14
+    100388: pPyramid21 15
+    100390: pPyramid21 16
+    100392: pPyramid21 17
+    100394: pPyramid21 18
+    100396: pPyramid21 19
+    100398: pPyramid21 2
+    100400: pPyramid21 3
+    100402: pPyramid21 4
+    100404: pPyramid21 5
+    100406: pPyramid21 6
+    100408: pPyramid21 7
+    100410: pPyramid21 8
+    100412: pPyramid21 9
+    100414: pPyramid22
+    100416: pPyramid22 1
+    100418: pPyramid22 10
+    100420: pPyramid22 11
+    100422: pPyramid22 12
+    100424: pPyramid22 13
+    100426: pPyramid22 14
+    100428: pPyramid22 15
+    100430: pPyramid22 16
+    100432: pPyramid22 17
+    100434: pPyramid22 18
+    100436: pPyramid22 19
+    100438: pPyramid22 2
+    100440: pPyramid22 3
+    100442: pPyramid22 4
+    100444: pPyramid22 5
+    100446: pPyramid22 6
+    100448: pPyramid22 7
+    100450: pPyramid22 8
+    100452: pPyramid22 9
+    100454: pPyramid23
+    100456: pPyramid23 1
+    100458: pPyramid23 10
+    100460: pPyramid23 11
+    100462: pPyramid23 12
+    100464: pPyramid23 13
+    100466: pPyramid23 14
+    100468: pPyramid23 15
+    100470: pPyramid23 16
+    100472: pPyramid23 17
+    100474: pPyramid23 18
+    100476: pPyramid23 19
+    100478: pPyramid23 2
+    100480: pPyramid23 3
+    100482: pPyramid23 4
+    100484: pPyramid23 5
+    100486: pPyramid23 6
+    100488: pPyramid23 7
+    100490: pPyramid23 8
+    100492: pPyramid23 9
+    100494: pPyramid24
+    100496: pPyramid24 1
+    100498: pPyramid24 10
+    100500: pPyramid24 11
+    100502: pPyramid24 12
+    100504: pPyramid24 13
+    100506: pPyramid24 14
+    100508: pPyramid24 15
+    100510: pPyramid24 16
+    100512: pPyramid24 17
+    100514: pPyramid24 18
+    100516: pPyramid24 19
+    100518: pPyramid24 2
+    100520: pPyramid24 3
+    100522: pPyramid24 4
+    100524: pPyramid24 5
+    100526: pPyramid24 6
+    100528: pPyramid24 7
+    100530: pPyramid24 8
+    100532: pPyramid24 9
+    100534: pPyramid25
+    100536: pPyramid25 1
+    100538: pPyramid25 10
+    100540: pPyramid25 11
+    100542: pPyramid25 12
+    100544: pPyramid25 13
+    100546: pPyramid25 14
+    100548: pPyramid25 15
+    100550: pPyramid25 16
+    100552: pPyramid25 17
+    100554: pPyramid25 18
+    100556: pPyramid25 19
+    100558: pPyramid25 2
+    100560: pPyramid25 3
+    100562: pPyramid25 4
+    100564: pPyramid25 5
+    100566: pPyramid25 6
+    100568: pPyramid25 7
+    100570: pPyramid25 8
+    100572: pPyramid25 9
+    100574: pPyramid26
+    100576: pPyramid26 1
+    100578: pPyramid26 10
+    100580: pPyramid26 11
+    100582: pPyramid26 12
+    100584: pPyramid26 13
+    100586: pPyramid26 14
+    100588: pPyramid26 15
+    100590: pPyramid26 16
+    100592: pPyramid26 17
+    100594: pPyramid26 18
+    100596: pPyramid26 19
+    100598: pPyramid26 2
+    100600: pPyramid26 3
+    100602: pPyramid26 4
+    100604: pPyramid26 5
+    100606: pPyramid26 6
+    100608: pPyramid26 7
+    100610: pPyramid26 8
+    100612: pPyramid26 9
+    100614: pPyramid27
+    100616: pPyramid27 1
+    100618: pPyramid27 10
+    100620: pPyramid27 11
+    100622: pPyramid27 12
+    100624: pPyramid27 13
+    100626: pPyramid27 14
+    100628: pPyramid27 15
+    100630: pPyramid27 16
+    100632: pPyramid27 17
+    100634: pPyramid27 18
+    100636: pPyramid27 19
+    100638: pPyramid27 2
+    100640: pPyramid27 3
+    100642: pPyramid27 4
+    100644: pPyramid27 5
+    100646: pPyramid27 6
+    100648: pPyramid27 7
+    100650: pPyramid27 8
+    100652: pPyramid27 9
+    100654: pPyramid28
+    100656: pPyramid28 1
+    100658: pPyramid28 10
+    100660: pPyramid28 11
+    100662: pPyramid28 12
+    100664: pPyramid28 13
+    100666: pPyramid28 14
+    100668: pPyramid28 15
+    100670: pPyramid28 16
+    100672: pPyramid28 17
+    100674: pPyramid28 18
+    100676: pPyramid28 2
+    100678: pPyramid28 3
+    100680: pPyramid28 4
+    100682: pPyramid28 5
+    100684: pPyramid28 6
+    100686: pPyramid28 7
+    100688: pPyramid28 8
+    100690: pPyramid28 9
+    100692: pPyramid29
+    100694: pPyramid29 1
+    100696: pPyramid29 10
+    100698: pPyramid29 11
+    100700: pPyramid29 12
+    100702: pPyramid29 13
+    100704: pPyramid29 14
+    100706: pPyramid29 15
+    100708: pPyramid29 16
+    100710: pPyramid29 17
+    100712: pPyramid29 18
+    100714: pPyramid29 19
+    100716: pPyramid29 2
+    100718: pPyramid29 3
+    100720: pPyramid29 4
+    100722: pPyramid29 5
+    100724: pPyramid29 6
+    100726: pPyramid29 7
+    100728: pPyramid29 8
+    100730: pPyramid29 9
+    100732: pPyramid3
+    100734: pPyramid30
+    100736: pPyramid31
+    100738: pPyramid32
+    100740: pPyramid33
+    100742: pPyramid34
+    100744: pPyramid35
+    100746: pPyramid36
+    100748: pPyramid37
+    100750: pPyramid38
+    100752: pPyramid4
+    100754: pPyramid5
+    100756: pPyramid6
+    100758: pPyramid7
+    100760: pPyramid8
+    100762: pPyramid9
+    100764: transform17
+    400000: buggy
+    400002: group16
+    400004: group17
+    400006: group18
+    400008: group19
+    400010: group20
+    400012: group21
+    400014: group22
+    400016: group23
+    400018: group24
+    400020: group25
+    400022: group26
+    400024: group27
+    400026: group28
+    400028: group29
+    400030: group30
+    400032: group31
+    400034: group32
+    400036: group33
+    400038: group34
+    400040: group35
+    400042: group36_pPyramid29
+    400044: group36_pPyramid30
+    400046: group36_pPyramid31
+    400048: group36_pPyramid34
+    400050: //RootNode
+    400052: polySurface10
+    400054: polySurface100
+    400056: polySurface101
+    400058: polySurface102
+    400060: polySurface103
+    400062: polySurface104
+    400064: polySurface105
+    400066: polySurface106
+    400068: polySurface107
+    400070: polySurface108
+    400072: polySurface109
+    400074: polySurface11
+    400076: polySurface110
+    400078: polySurface111
+    400080: polySurface112
+    400082: polySurface113
+    400084: polySurface114
+    400086: polySurface115
+    400088: polySurface116
+    400090: polySurface117
+    400092: polySurface118
+    400094: polySurface119
+    400096: polySurface12
+    400098: polySurface120
+    400100: polySurface121
+    400102: polySurface122
+    400104: polySurface123
+    400106: polySurface124
+    400108: polySurface125
+    400110: polySurface126
+    400112: polySurface127
+    400114: polySurface128
+    400116: polySurface129
+    400118: polySurface13
+    400120: polySurface130
+    400122: polySurface14
+    400124: polySurface15
+    400126: polySurface16
+    400128: polySurface17
+    400130: polySurface18
+    400132: polySurface19
+    400134: polySurface2
+    400136: polySurface20
+    400138: polySurface21
+    400140: polySurface22
+    400142: polySurface23
+    400144: polySurface24
+    400146: polySurface25
+    400148: polySurface26
+    400150: polySurface27
+    400152: polySurface28
+    400154: polySurface29
+    400156: polySurface3
+    400158: polySurface30
+    400160: polySurface31
+    400162: polySurface32
+    400164: polySurface33
+    400166: polySurface34
+    400168: polySurface35
+    400170: polySurface36
+    400172: polySurface37
+    400174: polySurface38
+    400176: polySurface39
+    400178: polySurface4
+    400180: polySurface40
+    400182: polySurface41
+    400184: polySurface42
+    400186: polySurface43
+    400188: polySurface44
+    400190: polySurface45
+    400192: polySurface46
+    400194: polySurface47
+    400196: polySurface48
+    400198: polySurface49
+    400200: polySurface5
+    400202: polySurface50
+    400204: polySurface51
+    400206: polySurface52
+    400208: polySurface53
+    400210: polySurface54
+    400212: polySurface55
+    400214: polySurface56
+    400216: polySurface57
+    400218: polySurface58
+    400220: polySurface59
+    400222: polySurface6
+    400224: polySurface60
+    400226: polySurface61
+    400228: polySurface62
+    400230: polySurface63
+    400232: polySurface64
+    400234: polySurface65
+    400236: polySurface66
+    400238: polySurface67
+    400240: polySurface68
+    400242: polySurface69
+    400244: polySurface7
+    400246: polySurface70
+    400248: polySurface71
+    400250: polySurface72
+    400252: polySurface73
+    400254: polySurface74
+    400256: polySurface75
+    400258: polySurface76
+    400260: polySurface77
+    400262: polySurface78
+    400264: polySurface79
+    400266: polySurface8
+    400268: polySurface80
+    400270: polySurface81
+    400272: polySurface82
+    400274: polySurface83
+    400276: polySurface84
+    400278: polySurface85
+    400280: polySurface86
+    400282: polySurface87
+    400284: polySurface88
+    400286: polySurface89
+    400288: polySurface9
+    400290: polySurface90
+    400292: polySurface91
+    400294: polySurface92
+    400296: polySurface93
+    400298: polySurface94
+    400300: polySurface95
+    400302: polySurface96
+    400304: polySurface97
+    400306: polySurface98
+    400308: polySurface99
+    400310: pPyramid1
+    400312: pPyramid10
+    400314: pPyramid11
+    400316: pPyramid12
+    400318: pPyramid13
+    400320: pPyramid14
+    400322: pPyramid15
+    400324: pPyramid16
+    400326: pPyramid17
+    400328: pPyramid18
+    400330: pPyramid19
+    400332: pPyramid2
+    400334: pPyramid2 1
+    400336: pPyramid2 10
+    400338: pPyramid2 11
+    400340: pPyramid2 12
+    400342: pPyramid2 13
+    400344: pPyramid2 14
+    400346: pPyramid2 15
+    400348: pPyramid2 16
+    400350: pPyramid2 17
+    400352: pPyramid2 18
+    400354: pPyramid2 19
+    400356: pPyramid2 2
+    400358: pPyramid2 3
+    400360: pPyramid2 4
+    400362: pPyramid2 5
+    400364: pPyramid2 6
+    400366: pPyramid2 7
+    400368: pPyramid2 8
+    400370: pPyramid2 9
+    400372: pPyramid20
+    400374: pPyramid21
+    400376: pPyramid21 1
+    400378: pPyramid21 10
+    400380: pPyramid21 11
+    400382: pPyramid21 12
+    400384: pPyramid21 13
+    400386: pPyramid21 14
+    400388: pPyramid21 15
+    400390: pPyramid21 16
+    400392: pPyramid21 17
+    400394: pPyramid21 18
+    400396: pPyramid21 19
+    400398: pPyramid21 2
+    400400: pPyramid21 3
+    400402: pPyramid21 4
+    400404: pPyramid21 5
+    400406: pPyramid21 6
+    400408: pPyramid21 7
+    400410: pPyramid21 8
+    400412: pPyramid21 9
+    400414: pPyramid22
+    400416: pPyramid22 1
+    400418: pPyramid22 10
+    400420: pPyramid22 11
+    400422: pPyramid22 12
+    400424: pPyramid22 13
+    400426: pPyramid22 14
+    400428: pPyramid22 15
+    400430: pPyramid22 16
+    400432: pPyramid22 17
+    400434: pPyramid22 18
+    400436: pPyramid22 19
+    400438: pPyramid22 2
+    400440: pPyramid22 3
+    400442: pPyramid22 4
+    400444: pPyramid22 5
+    400446: pPyramid22 6
+    400448: pPyramid22 7
+    400450: pPyramid22 8
+    400452: pPyramid22 9
+    400454: pPyramid23
+    400456: pPyramid23 1
+    400458: pPyramid23 10
+    400460: pPyramid23 11
+    400462: pPyramid23 12
+    400464: pPyramid23 13
+    400466: pPyramid23 14
+    400468: pPyramid23 15
+    400470: pPyramid23 16
+    400472: pPyramid23 17
+    400474: pPyramid23 18
+    400476: pPyramid23 19
+    400478: pPyramid23 2
+    400480: pPyramid23 3
+    400482: pPyramid23 4
+    400484: pPyramid23 5
+    400486: pPyramid23 6
+    400488: pPyramid23 7
+    400490: pPyramid23 8
+    400492: pPyramid23 9
+    400494: pPyramid24
+    400496: pPyramid24 1
+    400498: pPyramid24 10
+    400500: pPyramid24 11
+    400502: pPyramid24 12
+    400504: pPyramid24 13
+    400506: pPyramid24 14
+    400508: pPyramid24 15
+    400510: pPyramid24 16
+    400512: pPyramid24 17
+    400514: pPyramid24 18
+    400516: pPyramid24 19
+    400518: pPyramid24 2
+    400520: pPyramid24 3
+    400522: pPyramid24 4
+    400524: pPyramid24 5
+    400526: pPyramid24 6
+    400528: pPyramid24 7
+    400530: pPyramid24 8
+    400532: pPyramid24 9
+    400534: pPyramid25
+    400536: pPyramid25 1
+    400538: pPyramid25 10
+    400540: pPyramid25 11
+    400542: pPyramid25 12
+    400544: pPyramid25 13
+    400546: pPyramid25 14
+    400548: pPyramid25 15
+    400550: pPyramid25 16
+    400552: pPyramid25 17
+    400554: pPyramid25 18
+    400556: pPyramid25 19
+    400558: pPyramid25 2
+    400560: pPyramid25 3
+    400562: pPyramid25 4
+    400564: pPyramid25 5
+    400566: pPyramid25 6
+    400568: pPyramid25 7
+    400570: pPyramid25 8
+    400572: pPyramid25 9
+    400574: pPyramid26
+    400576: pPyramid26 1
+    400578: pPyramid26 10
+    400580: pPyramid26 11
+    400582: pPyramid26 12
+    400584: pPyramid26 13
+    400586: pPyramid26 14
+    400588: pPyramid26 15
+    400590: pPyramid26 16
+    400592: pPyramid26 17
+    400594: pPyramid26 18
+    400596: pPyramid26 19
+    400598: pPyramid26 2
+    400600: pPyramid26 3
+    400602: pPyramid26 4
+    400604: pPyramid26 5
+    400606: pPyramid26 6
+    400608: pPyramid26 7
+    400610: pPyramid26 8
+    400612: pPyramid26 9
+    400614: pPyramid27
+    400616: pPyramid27 1
+    400618: pPyramid27 10
+    400620: pPyramid27 11
+    400622: pPyramid27 12
+    400624: pPyramid27 13
+    400626: pPyramid27 14
+    400628: pPyramid27 15
+    400630: pPyramid27 16
+    400632: pPyramid27 17
+    400634: pPyramid27 18
+    400636: pPyramid27 19
+    400638: pPyramid27 2
+    400640: pPyramid27 3
+    400642: pPyramid27 4
+    400644: pPyramid27 5
+    400646: pPyramid27 6
+    400648: pPyramid27 7
+    400650: pPyramid27 8
+    400652: pPyramid27 9
+    400654: pPyramid28
+    400656: pPyramid28 1
+    400658: pPyramid28 10
+    400660: pPyramid28 11
+    400662: pPyramid28 12
+    400664: pPyramid28 13
+    400666: pPyramid28 14
+    400668: pPyramid28 15
+    400670: pPyramid28 16
+    400672: pPyramid28 17
+    400674: pPyramid28 18
+    400676: pPyramid28 2
+    400678: pPyramid28 3
+    400680: pPyramid28 4
+    400682: pPyramid28 5
+    400684: pPyramid28 6
+    400686: pPyramid28 7
+    400688: pPyramid28 8
+    400690: pPyramid28 9
+    400692: pPyramid29
+    400694: pPyramid29 1
+    400696: pPyramid29 10
+    400698: pPyramid29 11
+    400700: pPyramid29 12
+    400702: pPyramid29 13
+    400704: pPyramid29 14
+    400706: pPyramid29 15
+    400708: pPyramid29 16
+    400710: pPyramid29 17
+    400712: pPyramid29 18
+    400714: pPyramid29 19
+    400716: pPyramid29 2
+    400718: pPyramid29 3
+    400720: pPyramid29 4
+    400722: pPyramid29 5
+    400724: pPyramid29 6
+    400726: pPyramid29 7
+    400728: pPyramid29 8
+    400730: pPyramid29 9
+    400732: pPyramid3
+    400734: pPyramid30
+    400736: pPyramid31
+    400738: pPyramid32
+    400740: pPyramid33
+    400742: pPyramid34
+    400744: pPyramid35
+    400746: pPyramid36
+    400748: pPyramid37
+    400750: pPyramid38
+    400752: pPyramid4
+    400754: pPyramid5
+    400756: pPyramid6
+    400758: pPyramid7
+    400760: pPyramid8
+    400762: pPyramid9
+    400764: transform17
+    2300000: group36_pPyramid29
+    2300002: group36_pPyramid30
+    2300004: group36_pPyramid31
+    2300006: group36_pPyramid34
+    2300008: polySurface10
+    2300010: polySurface100
+    2300012: polySurface101
+    2300014: polySurface102
+    2300016: polySurface103
+    2300018: polySurface104
+    2300020: polySurface105
+    2300022: polySurface106
+    2300024: polySurface107
+    2300026: polySurface108
+    2300028: polySurface109
+    2300030: polySurface11
+    2300032: polySurface110
+    2300034: polySurface111
+    2300036: polySurface112
+    2300038: polySurface113
+    2300040: polySurface114
+    2300042: polySurface115
+    2300044: polySurface116
+    2300046: polySurface117
+    2300048: polySurface118
+    2300050: polySurface119
+    2300052: polySurface12
+    2300054: polySurface120
+    2300056: polySurface121
+    2300058: polySurface122
+    2300060: polySurface123
+    2300062: polySurface124
+    2300064: polySurface125
+    2300066: polySurface126
+    2300068: polySurface127
+    2300070: polySurface128
+    2300072: polySurface129
+    2300074: polySurface13
+    2300076: polySurface130
+    2300078: polySurface14
+    2300080: polySurface15
+    2300082: polySurface16
+    2300084: polySurface17
+    2300086: polySurface18
+    2300088: polySurface19
+    2300090: polySurface2
+    2300092: polySurface20
+    2300094: polySurface21
+    2300096: polySurface22
+    2300098: polySurface23
+    2300100: polySurface24
+    2300102: polySurface25
+    2300104: polySurface26
+    2300106: polySurface27
+    2300108: polySurface28
+    2300110: polySurface29
+    2300112: polySurface3
+    2300114: polySurface30
+    2300116: polySurface31
+    2300118: polySurface32
+    2300120: polySurface33
+    2300122: polySurface34
+    2300124: polySurface35
+    2300126: polySurface36
+    2300128: polySurface37
+    2300130: polySurface38
+    2300132: polySurface39
+    2300134: polySurface4
+    2300136: polySurface40
+    2300138: polySurface41
+    2300140: polySurface42
+    2300142: polySurface43
+    2300144: polySurface44
+    2300146: polySurface45
+    2300148: polySurface46
+    2300150: polySurface47
+    2300152: polySurface48
+    2300154: polySurface49
+    2300156: polySurface5
+    2300158: polySurface50
+    2300160: polySurface51
+    2300162: polySurface52
+    2300164: polySurface53
+    2300166: polySurface54
+    2300168: polySurface55
+    2300170: polySurface56
+    2300172: polySurface57
+    2300174: polySurface58
+    2300176: polySurface59
+    2300178: polySurface6
+    2300180: polySurface60
+    2300182: polySurface61
+    2300184: polySurface62
+    2300186: polySurface63
+    2300188: polySurface64
+    2300190: polySurface65
+    2300192: polySurface66
+    2300194: polySurface67
+    2300196: polySurface68
+    2300198: polySurface69
+    2300200: polySurface7
+    2300202: polySurface70
+    2300204: polySurface71
+    2300206: polySurface72
+    2300208: polySurface73
+    2300210: polySurface74
+    2300212: polySurface75
+    2300214: polySurface76
+    2300216: polySurface77
+    2300218: polySurface78
+    2300220: polySurface79
+    2300222: polySurface8
+    2300224: polySurface80
+    2300226: polySurface81
+    2300228: polySurface82
+    2300230: polySurface83
+    2300232: polySurface84
+    2300234: polySurface85
+    2300236: polySurface86
+    2300238: polySurface87
+    2300240: polySurface88
+    2300242: polySurface89
+    2300244: polySurface9
+    2300246: polySurface90
+    2300248: polySurface91
+    2300250: polySurface92
+    2300252: polySurface93
+    2300254: polySurface94
+    2300256: polySurface95
+    2300258: polySurface96
+    2300260: polySurface97
+    2300262: polySurface98
+    2300264: polySurface99
+    2300266: pPyramid1
+    2300268: pPyramid10
+    2300270: pPyramid11
+    2300272: pPyramid12
+    2300274: pPyramid13
+    2300276: pPyramid14
+    2300278: pPyramid15
+    2300280: pPyramid16
+    2300282: pPyramid17
+    2300284: pPyramid18
+    2300286: pPyramid19
+    2300288: pPyramid2
+    2300290: pPyramid2 1
+    2300292: pPyramid2 10
+    2300294: pPyramid2 11
+    2300296: pPyramid2 12
+    2300298: pPyramid2 13
+    2300300: pPyramid2 14
+    2300302: pPyramid2 15
+    2300304: pPyramid2 16
+    2300306: pPyramid2 17
+    2300308: pPyramid2 18
+    2300310: pPyramid2 19
+    2300312: pPyramid2 2
+    2300314: pPyramid2 3
+    2300316: pPyramid2 4
+    2300318: pPyramid2 5
+    2300320: pPyramid2 6
+    2300322: pPyramid2 7
+    2300324: pPyramid2 8
+    2300326: pPyramid2 9
+    2300328: pPyramid20
+    2300330: pPyramid21
+    2300332: pPyramid21 1
+    2300334: pPyramid21 10
+    2300336: pPyramid21 11
+    2300338: pPyramid21 12
+    2300340: pPyramid21 13
+    2300342: pPyramid21 14
+    2300344: pPyramid21 15
+    2300346: pPyramid21 16
+    2300348: pPyramid21 17
+    2300350: pPyramid21 18
+    2300352: pPyramid21 19
+    2300354: pPyramid21 2
+    2300356: pPyramid21 3
+    2300358: pPyramid21 4
+    2300360: pPyramid21 5
+    2300362: pPyramid21 6
+    2300364: pPyramid21 7
+    2300366: pPyramid21 8
+    2300368: pPyramid21 9
+    2300370: pPyramid22
+    2300372: pPyramid22 1
+    2300374: pPyramid22 10
+    2300376: pPyramid22 11
+    2300378: pPyramid22 12
+    2300380: pPyramid22 13
+    2300382: pPyramid22 14
+    2300384: pPyramid22 15
+    2300386: pPyramid22 16
+    2300388: pPyramid22 17
+    2300390: pPyramid22 18
+    2300392: pPyramid22 19
+    2300394: pPyramid22 2
+    2300396: pPyramid22 3
+    2300398: pPyramid22 4
+    2300400: pPyramid22 5
+    2300402: pPyramid22 6
+    2300404: pPyramid22 7
+    2300406: pPyramid22 8
+    2300408: pPyramid22 9
+    2300410: pPyramid23
+    2300412: pPyramid23 1
+    2300414: pPyramid23 10
+    2300416: pPyramid23 11
+    2300418: pPyramid23 12
+    2300420: pPyramid23 13
+    2300422: pPyramid23 14
+    2300424: pPyramid23 15
+    2300426: pPyramid23 16
+    2300428: pPyramid23 17
+    2300430: pPyramid23 18
+    2300432: pPyramid23 19
+    2300434: pPyramid23 2
+    2300436: pPyramid23 3
+    2300438: pPyramid23 4
+    2300440: pPyramid23 5
+    2300442: pPyramid23 6
+    2300444: pPyramid23 7
+    2300446: pPyramid23 8
+    2300448: pPyramid23 9
+    2300450: pPyramid24
+    2300452: pPyramid24 1
+    2300454: pPyramid24 10
+    2300456: pPyramid24 11
+    2300458: pPyramid24 12
+    2300460: pPyramid24 13
+    2300462: pPyramid24 14
+    2300464: pPyramid24 15
+    2300466: pPyramid24 16
+    2300468: pPyramid24 17
+    2300470: pPyramid24 18
+    2300472: pPyramid24 19
+    2300474: pPyramid24 2
+    2300476: pPyramid24 3
+    2300478: pPyramid24 4
+    2300480: pPyramid24 5
+    2300482: pPyramid24 6
+    2300484: pPyramid24 7
+    2300486: pPyramid24 8
+    2300488: pPyramid24 9
+    2300490: pPyramid25
+    2300492: pPyramid25 1
+    2300494: pPyramid25 10
+    2300496: pPyramid25 11
+    2300498: pPyramid25 12
+    2300500: pPyramid25 13
+    2300502: pPyramid25 14
+    2300504: pPyramid25 15
+    2300506: pPyramid25 16
+    2300508: pPyramid25 17
+    2300510: pPyramid25 18
+    2300512: pPyramid25 19
+    2300514: pPyramid25 2
+    2300516: pPyramid25 3
+    2300518: pPyramid25 4
+    2300520: pPyramid25 5
+    2300522: pPyramid25 6
+    2300524: pPyramid25 7
+    2300526: pPyramid25 8
+    2300528: pPyramid25 9
+    2300530: pPyramid26
+    2300532: pPyramid26 1
+    2300534: pPyramid26 10
+    2300536: pPyramid26 11
+    2300538: pPyramid26 12
+    2300540: pPyramid26 13
+    2300542: pPyramid26 14
+    2300544: pPyramid26 15
+    2300546: pPyramid26 16
+    2300548: pPyramid26 17
+    2300550: pPyramid26 18
+    2300552: pPyramid26 19
+    2300554: pPyramid26 2
+    2300556: pPyramid26 3
+    2300558: pPyramid26 4
+    2300560: pPyramid26 5
+    2300562: pPyramid26 6
+    2300564: pPyramid26 7
+    2300566: pPyramid26 8
+    2300568: pPyramid26 9
+    2300570: pPyramid27
+    2300572: pPyramid27 1
+    2300574: pPyramid27 10
+    2300576: pPyramid27 11
+    2300578: pPyramid27 12
+    2300580: pPyramid27 13
+    2300582: pPyramid27 14
+    2300584: pPyramid27 15
+    2300586: pPyramid27 16
+    2300588: pPyramid27 17
+    2300590: pPyramid27 18
+    2300592: pPyramid27 19
+    2300594: pPyramid27 2
+    2300596: pPyramid27 3
+    2300598: pPyramid27 4
+    2300600: pPyramid27 5
+    2300602: pPyramid27 6
+    2300604: pPyramid27 7
+    2300606: pPyramid27 8
+    2300608: pPyramid27 9
+    2300610: pPyramid28
+    2300612: pPyramid28 1
+    2300614: pPyramid28 10
+    2300616: pPyramid28 11
+    2300618: pPyramid28 12
+    2300620: pPyramid28 13
+    2300622: pPyramid28 14
+    2300624: pPyramid28 15
+    2300626: pPyramid28 16
+    2300628: pPyramid28 17
+    2300630: pPyramid28 18
+    2300632: pPyramid28 2
+    2300634: pPyramid28 3
+    2300636: pPyramid28 4
+    2300638: pPyramid28 5
+    2300640: pPyramid28 6
+    2300642: pPyramid28 7
+    2300644: pPyramid28 8
+    2300646: pPyramid28 9
+    2300648: pPyramid29
+    2300650: pPyramid29 1
+    2300652: pPyramid29 10
+    2300654: pPyramid29 11
+    2300656: pPyramid29 12
+    2300658: pPyramid29 13
+    2300660: pPyramid29 14
+    2300662: pPyramid29 15
+    2300664: pPyramid29 16
+    2300666: pPyramid29 17
+    2300668: pPyramid29 18
+    2300670: pPyramid29 19
+    2300672: pPyramid29 2
+    2300674: pPyramid29 3
+    2300676: pPyramid29 4
+    2300678: pPyramid29 5
+    2300680: pPyramid29 6
+    2300682: pPyramid29 7
+    2300684: pPyramid29 8
+    2300686: pPyramid29 9
+    2300688: pPyramid3
+    2300690: pPyramid30
+    2300692: pPyramid31
+    2300694: pPyramid32
+    2300696: pPyramid33
+    2300698: pPyramid34
+    2300700: pPyramid35
+    2300702: pPyramid36
+    2300704: pPyramid37
+    2300706: pPyramid38
+    2300708: pPyramid4
+    2300710: pPyramid5
+    2300712: pPyramid6
+    2300714: pPyramid7
+    2300716: pPyramid8
+    2300718: pPyramid9
+    3300000: group36_pPyramid29
+    3300002: group36_pPyramid30
+    3300004: group36_pPyramid31
+    3300006: group36_pPyramid34
+    3300008: polySurface10
+    3300010: polySurface100
+    3300012: polySurface101
+    3300014: polySurface102
+    3300016: polySurface103
+    3300018: polySurface104
+    3300020: polySurface105
+    3300022: polySurface106
+    3300024: polySurface107
+    3300026: polySurface108
+    3300028: polySurface109
+    3300030: polySurface11
+    3300032: polySurface110
+    3300034: polySurface111
+    3300036: polySurface112
+    3300038: polySurface113
+    3300040: polySurface114
+    3300042: polySurface115
+    3300044: polySurface116
+    3300046: polySurface117
+    3300048: polySurface118
+    3300050: polySurface119
+    3300052: polySurface12
+    3300054: polySurface120
+    3300056: polySurface121
+    3300058: polySurface122
+    3300060: polySurface123
+    3300062: polySurface124
+    3300064: polySurface125
+    3300066: polySurface126
+    3300068: polySurface127
+    3300070: polySurface128
+    3300072: polySurface129
+    3300074: polySurface13
+    3300076: polySurface130
+    3300078: polySurface14
+    3300080: polySurface15
+    3300082: polySurface16
+    3300084: polySurface17
+    3300086: polySurface18
+    3300088: polySurface19
+    3300090: polySurface2
+    3300092: polySurface20
+    3300094: polySurface21
+    3300096: polySurface22
+    3300098: polySurface23
+    3300100: polySurface24
+    3300102: polySurface25
+    3300104: polySurface26
+    3300106: polySurface27
+    3300108: polySurface28
+    3300110: polySurface29
+    3300112: polySurface3
+    3300114: polySurface30
+    3300116: polySurface31
+    3300118: polySurface32
+    3300120: polySurface33
+    3300122: polySurface34
+    3300124: polySurface35
+    3300126: polySurface36
+    3300128: polySurface37
+    3300130: polySurface38
+    3300132: polySurface39
+    3300134: polySurface4
+    3300136: polySurface40
+    3300138: polySurface41
+    3300140: polySurface42
+    3300142: polySurface43
+    3300144: polySurface44
+    3300146: polySurface45
+    3300148: polySurface46
+    3300150: polySurface47
+    3300152: polySurface48
+    3300154: polySurface49
+    3300156: polySurface5
+    3300158: polySurface50
+    3300160: polySurface51
+    3300162: polySurface52
+    3300164: polySurface53
+    3300166: polySurface54
+    3300168: polySurface55
+    3300170: polySurface56
+    3300172: polySurface57
+    3300174: polySurface58
+    3300176: polySurface59
+    3300178: polySurface6
+    3300180: polySurface60
+    3300182: polySurface61
+    3300184: polySurface62
+    3300186: polySurface63
+    3300188: polySurface64
+    3300190: polySurface65
+    3300192: polySurface66
+    3300194: polySurface67
+    3300196: polySurface68
+    3300198: polySurface69
+    3300200: polySurface7
+    3300202: polySurface70
+    3300204: polySurface71
+    3300206: polySurface72
+    3300208: polySurface73
+    3300210: polySurface74
+    3300212: polySurface75
+    3300214: polySurface76
+    3300216: polySurface77
+    3300218: polySurface78
+    3300220: polySurface79
+    3300222: polySurface8
+    3300224: polySurface80
+    3300226: polySurface81
+    3300228: polySurface82
+    3300230: polySurface83
+    3300232: polySurface84
+    3300234: polySurface85
+    3300236: polySurface86
+    3300238: polySurface87
+    3300240: polySurface88
+    3300242: polySurface89
+    3300244: polySurface9
+    3300246: polySurface90
+    3300248: polySurface91
+    3300250: polySurface92
+    3300252: polySurface93
+    3300254: polySurface94
+    3300256: polySurface95
+    3300258: polySurface96
+    3300260: polySurface97
+    3300262: polySurface98
+    3300264: polySurface99
+    3300266: pPyramid1
+    3300268: pPyramid10
+    3300270: pPyramid11
+    3300272: pPyramid12
+    3300274: pPyramid13
+    3300276: pPyramid14
+    3300278: pPyramid15
+    3300280: pPyramid16
+    3300282: pPyramid17
+    3300284: pPyramid18
+    3300286: pPyramid19
+    3300288: pPyramid2
+    3300290: pPyramid2 1
+    3300292: pPyramid2 10
+    3300294: pPyramid2 11
+    3300296: pPyramid2 12
+    3300298: pPyramid2 13
+    3300300: pPyramid2 14
+    3300302: pPyramid2 15
+    3300304: pPyramid2 16
+    3300306: pPyramid2 17
+    3300308: pPyramid2 18
+    3300310: pPyramid2 19
+    3300312: pPyramid2 2
+    3300314: pPyramid2 3
+    3300316: pPyramid2 4
+    3300318: pPyramid2 5
+    3300320: pPyramid2 6
+    3300322: pPyramid2 7
+    3300324: pPyramid2 8
+    3300326: pPyramid2 9
+    3300328: pPyramid20
+    3300330: pPyramid21
+    3300332: pPyramid21 1
+    3300334: pPyramid21 10
+    3300336: pPyramid21 11
+    3300338: pPyramid21 12
+    3300340: pPyramid21 13
+    3300342: pPyramid21 14
+    3300344: pPyramid21 15
+    3300346: pPyramid21 16
+    3300348: pPyramid21 17
+    3300350: pPyramid21 18
+    3300352: pPyramid21 19
+    3300354: pPyramid21 2
+    3300356: pPyramid21 3
+    3300358: pPyramid21 4
+    3300360: pPyramid21 5
+    3300362: pPyramid21 6
+    3300364: pPyramid21 7
+    3300366: pPyramid21 8
+    3300368: pPyramid21 9
+    3300370: pPyramid22
+    3300372: pPyramid22 1
+    3300374: pPyramid22 10
+    3300376: pPyramid22 11
+    3300378: pPyramid22 12
+    3300380: pPyramid22 13
+    3300382: pPyramid22 14
+    3300384: pPyramid22 15
+    3300386: pPyramid22 16
+    3300388: pPyramid22 17
+    3300390: pPyramid22 18
+    3300392: pPyramid22 19
+    3300394: pPyramid22 2
+    3300396: pPyramid22 3
+    3300398: pPyramid22 4
+    3300400: pPyramid22 5
+    3300402: pPyramid22 6
+    3300404: pPyramid22 7
+    3300406: pPyramid22 8
+    3300408: pPyramid22 9
+    3300410: pPyramid23
+    3300412: pPyramid23 1
+    3300414: pPyramid23 10
+    3300416: pPyramid23 11
+    3300418: pPyramid23 12
+    3300420: pPyramid23 13
+    3300422: pPyramid23 14
+    3300424: pPyramid23 15
+    3300426: pPyramid23 16
+    3300428: pPyramid23 17
+    3300430: pPyramid23 18
+    3300432: pPyramid23 19
+    3300434: pPyramid23 2
+    3300436: pPyramid23 3
+    3300438: pPyramid23 4
+    3300440: pPyramid23 5
+    3300442: pPyramid23 6
+    3300444: pPyramid23 7
+    3300446: pPyramid23 8
+    3300448: pPyramid23 9
+    3300450: pPyramid24
+    3300452: pPyramid24 1
+    3300454: pPyramid24 10
+    3300456: pPyramid24 11
+    3300458: pPyramid24 12
+    3300460: pPyramid24 13
+    3300462: pPyramid24 14
+    3300464: pPyramid24 15
+    3300466: pPyramid24 16
+    3300468: pPyramid24 17
+    3300470: pPyramid24 18
+    3300472: pPyramid24 19
+    3300474: pPyramid24 2
+    3300476: pPyramid24 3
+    3300478: pPyramid24 4
+    3300480: pPyramid24 5
+    3300482: pPyramid24 6
+    3300484: pPyramid24 7
+    3300486: pPyramid24 8
+    3300488: pPyramid24 9
+    3300490: pPyramid25
+    3300492: pPyramid25 1
+    3300494: pPyramid25 10
+    3300496: pPyramid25 11
+    3300498: pPyramid25 12
+    3300500: pPyramid25 13
+    3300502: pPyramid25 14
+    3300504: pPyramid25 15
+    3300506: pPyramid25 16
+    3300508: pPyramid25 17
+    3300510: pPyramid25 18
+    3300512: pPyramid25 19
+    3300514: pPyramid25 2
+    3300516: pPyramid25 3
+    3300518: pPyramid25 4
+    3300520: pPyramid25 5
+    3300522: pPyramid25 6
+    3300524: pPyramid25 7
+    3300526: pPyramid25 8
+    3300528: pPyramid25 9
+    3300530: pPyramid26
+    3300532: pPyramid26 1
+    3300534: pPyramid26 10
+    3300536: pPyramid26 11
+    3300538: pPyramid26 12
+    3300540: pPyramid26 13
+    3300542: pPyramid26 14
+    3300544: pPyramid26 15
+    3300546: pPyramid26 16
+    3300548: pPyramid26 17
+    3300550: pPyramid26 18
+    3300552: pPyramid26 19
+    3300554: pPyramid26 2
+    3300556: pPyramid26 3
+    3300558: pPyramid26 4
+    3300560: pPyramid26 5
+    3300562: pPyramid26 6
+    3300564: pPyramid26 7
+    3300566: pPyramid26 8
+    3300568: pPyramid26 9
+    3300570: pPyramid27
+    3300572: pPyramid27 1
+    3300574: pPyramid27 10
+    3300576: pPyramid27 11
+    3300578: pPyramid27 12
+    3300580: pPyramid27 13
+    3300582: pPyramid27 14
+    3300584: pPyramid27 15
+    3300586: pPyramid27 16
+    3300588: pPyramid27 17
+    3300590: pPyramid27 18
+    3300592: pPyramid27 19
+    3300594: pPyramid27 2
+    3300596: pPyramid27 3
+    3300598: pPyramid27 4
+    3300600: pPyramid27 5
+    3300602: pPyramid27 6
+    3300604: pPyramid27 7
+    3300606: pPyramid27 8
+    3300608: pPyramid27 9
+    3300610: pPyramid28
+    3300612: pPyramid28 1
+    3300614: pPyramid28 10
+    3300616: pPyramid28 11
+    3300618: pPyramid28 12
+    3300620: pPyramid28 13
+    3300622: pPyramid28 14
+    3300624: pPyramid28 15
+    3300626: pPyramid28 16
+    3300628: pPyramid28 17
+    3300630: pPyramid28 18
+    3300632: pPyramid28 2
+    3300634: pPyramid28 3
+    3300636: pPyramid28 4
+    3300638: pPyramid28 5
+    3300640: pPyramid28 6
+    3300642: pPyramid28 7
+    3300644: pPyramid28 8
+    3300646: pPyramid28 9
+    3300648: pPyramid29
+    3300650: pPyramid29 1
+    3300652: pPyramid29 10
+    3300654: pPyramid29 11
+    3300656: pPyramid29 12
+    3300658: pPyramid29 13
+    3300660: pPyramid29 14
+    3300662: pPyramid29 15
+    3300664: pPyramid29 16
+    3300666: pPyramid29 17
+    3300668: pPyramid29 18
+    3300670: pPyramid29 19
+    3300672: pPyramid29 2
+    3300674: pPyramid29 3
+    3300676: pPyramid29 4
+    3300678: pPyramid29 5
+    3300680: pPyramid29 6
+    3300682: pPyramid29 7
+    3300684: pPyramid29 8
+    3300686: pPyramid29 9
+    3300688: pPyramid3
+    3300690: pPyramid30
+    3300692: pPyramid31
+    3300694: pPyramid32
+    3300696: pPyramid33
+    3300698: pPyramid34
+    3300700: pPyramid35
+    3300702: pPyramid36
+    3300704: pPyramid37
+    3300706: pPyramid38
+    3300708: pPyramid4
+    3300710: pPyramid5
+    3300712: pPyramid6
+    3300714: pPyramid7
+    3300716: pPyramid8
+    3300718: pPyramid9
+    4300000: polySurface2
+    4300002: polySurface3
+    4300004: polySurface4
+    4300006: polySurface5
+    4300008: polySurface6
+    4300010: polySurface7
+    4300012: polySurface8
+    4300014: polySurface9
+    4300016: polySurface10
+    4300018: polySurface11
+    4300020: polySurface12
+    4300022: polySurface13
+    4300024: polySurface14
+    4300026: polySurface15
+    4300028: polySurface16
+    4300030: polySurface17
+    4300032: polySurface18
+    4300034: polySurface19
+    4300036: polySurface20
+    4300038: polySurface21
+    4300040: polySurface22
+    4300042: polySurface23
+    4300044: polySurface24
+    4300046: polySurface25
+    4300048: polySurface26
+    4300050: polySurface27
+    4300052: polySurface28
+    4300054: polySurface29
+    4300056: polySurface30
+    4300058: polySurface31
+    4300060: polySurface32
+    4300062: polySurface33
+    4300064: polySurface34
+    4300066: polySurface35
+    4300068: polySurface36
+    4300070: polySurface37
+    4300072: polySurface38
+    4300074: polySurface39
+    4300076: polySurface40
+    4300078: polySurface41
+    4300080: polySurface42
+    4300082: polySurface43
+    4300084: polySurface44
+    4300086: polySurface45
+    4300088: polySurface46
+    4300090: polySurface47
+    4300092: polySurface48
+    4300094: polySurface49
+    4300096: polySurface50
+    4300098: polySurface51
+    4300100: polySurface52
+    4300102: polySurface53
+    4300104: polySurface54
+    4300106: polySurface55
+    4300108: polySurface56
+    4300110: polySurface57
+    4300112: polySurface58
+    4300114: polySurface59
+    4300116: polySurface60
+    4300118: polySurface61
+    4300120: polySurface62
+    4300122: polySurface63
+    4300124: polySurface64
+    4300126: polySurface65
+    4300128: polySurface66
+    4300130: polySurface67
+    4300132: polySurface68
+    4300134: polySurface69
+    4300136: polySurface70
+    4300138: polySurface71
+    4300140: polySurface72
+    4300142: polySurface73
+    4300144: polySurface74
+    4300146: polySurface75
+    4300148: polySurface76
+    4300150: polySurface77
+    4300152: polySurface78
+    4300154: polySurface79
+    4300156: polySurface80
+    4300158: polySurface81
+    4300160: polySurface82
+    4300162: polySurface83
+    4300164: polySurface84
+    4300166: polySurface85
+    4300168: polySurface86
+    4300170: polySurface87
+    4300172: polySurface88
+    4300174: polySurface89
+    4300176: polySurface90
+    4300178: polySurface91
+    4300180: polySurface92
+    4300182: polySurface93
+    4300184: polySurface94
+    4300186: polySurface95
+    4300188: polySurface96
+    4300190: polySurface97
+    4300192: polySurface98
+    4300194: polySurface99
+    4300196: polySurface100
+    4300198: polySurface101
+    4300200: polySurface102
+    4300202: polySurface103
+    4300204: polySurface104
+    4300206: polySurface105
+    4300208: polySurface106
+    4300210: polySurface107
+    4300212: polySurface108
+    4300214: polySurface109
+    4300216: polySurface110
+    4300218: polySurface111
+    4300220: polySurface112
+    4300222: polySurface113
+    4300224: polySurface114
+    4300226: polySurface115
+    4300228: polySurface116
+    4300230: polySurface117
+    4300232: polySurface118
+    4300234: polySurface119
+    4300236: polySurface120
+    4300238: polySurface121
+    4300240: polySurface122
+    4300242: polySurface123
+    4300244: polySurface124
+    4300246: polySurface125
+    4300248: polySurface126
+    4300250: polySurface127
+    4300252: polySurface128
+    4300254: polySurface129
+    4300256: polySurface130
+    4300258: pPyramid1
+    4300260: pPyramid3
+    4300262: pPyramid4
+    4300264: pPyramid5
+    4300266: pPyramid6
+    4300268: pPyramid7
+    4300270: pPyramid8
+    4300272: pPyramid9
+    4300274: pPyramid10
+    4300276: pPyramid11
+    4300278: pPyramid12
+    4300280: pPyramid13
+    4300282: pPyramid14
+    4300284: pPyramid15
+    4300286: pPyramid16
+    4300288: pPyramid17
+    4300290: pPyramid18
+    4300292: pPyramid19
+    4300294: pPyramid20
+    4300296: pPyramid29
+    4300298: pPyramid21
+    4300300: pPyramid24
+    4300302: pPyramid2
+    4300304: pPyramid25
+    4300306: pPyramid22
+    4300308: pPyramid26
+    4300310: pPyramid23
+    4300312: pPyramid28
+    4300314: pPyramid27
+    4300316: pPyramid29
+    4300318: pPyramid21
+    4300320: pPyramid24
+    4300322: pPyramid2
+    4300324: pPyramid25
+    4300326: pPyramid22
+    4300328: pPyramid26
+    4300330: pPyramid23
+    4300332: pPyramid28
+    4300334: pPyramid27
+    4300336: pPyramid29
+    4300338: pPyramid21
+    4300340: pPyramid24
+    4300342: pPyramid2
+    4300344: pPyramid25
+    4300346: pPyramid22
+    4300348: pPyramid26
+    4300350: pPyramid23
+    4300352: pPyramid28
+    4300354: pPyramid27
+    4300356: pPyramid29
+    4300358: pPyramid21
+    4300360: pPyramid24
+    4300362: pPyramid2
+    4300364: pPyramid25
+    4300366: pPyramid22
+    4300368: pPyramid26
+    4300370: pPyramid23
+    4300372: pPyramid28
+    4300374: pPyramid27
+    4300376: pPyramid29
+    4300378: pPyramid21
+    4300380: pPyramid24
+    4300382: pPyramid2
+    4300384: pPyramid25
+    4300386: pPyramid22
+    4300388: pPyramid26
+    4300390: pPyramid23
+    4300392: pPyramid28
+    4300394: pPyramid27
+    4300396: pPyramid29
+    4300398: pPyramid21
+    4300400: pPyramid24
+    4300402: pPyramid2
+    4300404: pPyramid25
+    4300406: pPyramid22
+    4300408: pPyramid26
+    4300410: pPyramid23
+    4300412: pPyramid28
+    4300414: pPyramid27
+    4300416: pPyramid29
+    4300418: pPyramid21
+    4300420: pPyramid24
+    4300422: pPyramid2
+    4300424: pPyramid25
+    4300426: pPyramid22
+    4300428: pPyramid26
+    4300430: pPyramid23
+    4300432: pPyramid28
+    4300434: pPyramid27
+    4300436: pPyramid29
+    4300438: pPyramid21
+    4300440: pPyramid24
+    4300442: pPyramid2
+    4300444: pPyramid25
+    4300446: pPyramid22
+    4300448: pPyramid26
+    4300450: pPyramid23
+    4300452: pPyramid28
+    4300454: pPyramid27
+    4300456: pPyramid29
+    4300458: pPyramid21
+    4300460: pPyramid24
+    4300462: pPyramid2
+    4300464: pPyramid25
+    4300466: pPyramid22
+    4300468: pPyramid26
+    4300470: pPyramid23
+    4300472: pPyramid28
+    4300474: pPyramid27
+    4300476: pPyramid29
+    4300478: pPyramid21
+    4300480: pPyramid24
+    4300482: pPyramid2
+    4300484: pPyramid25
+    4300486: pPyramid22
+    4300488: pPyramid26
+    4300490: pPyramid23
+    4300492: pPyramid28
+    4300494: pPyramid27
+    4300496: pPyramid29
+    4300498: pPyramid21
+    4300500: pPyramid24
+    4300502: pPyramid2
+    4300504: pPyramid25
+    4300506: pPyramid22
+    4300508: pPyramid26
+    4300510: pPyramid23
+    4300512: pPyramid28
+    4300514: pPyramid27
+    4300516: pPyramid29
+    4300518: pPyramid21
+    4300520: pPyramid24
+    4300522: pPyramid2
+    4300524: pPyramid25
+    4300526: pPyramid22
+    4300528: pPyramid26
+    4300530: pPyramid23
+    4300532: pPyramid28
+    4300534: pPyramid27
+    4300536: pPyramid29
+    4300538: pPyramid21
+    4300540: pPyramid24
+    4300542: pPyramid2
+    4300544: pPyramid25
+    4300546: pPyramid22
+    4300548: pPyramid26
+    4300550: pPyramid23
+    4300552: pPyramid28
+    4300554: pPyramid27
+    4300556: pPyramid29
+    4300558: pPyramid21
+    4300560: pPyramid24
+    4300562: pPyramid2
+    4300564: pPyramid25
+    4300566: pPyramid22
+    4300568: pPyramid26
+    4300570: pPyramid23
+    4300572: pPyramid28
+    4300574: pPyramid27
+    4300576: pPyramid29
+    4300578: pPyramid21
+    4300580: pPyramid24
+    4300582: pPyramid2
+    4300584: pPyramid25
+    4300586: pPyramid22
+    4300588: pPyramid26
+    4300590: pPyramid23
+    4300592: pPyramid28
+    4300594: pPyramid27
+    4300596: pPyramid32
+    4300598: pPyramid33
+    4300600: pPyramid38
+    4300602: pPyramid29
+    4300604: pPyramid21
+    4300606: pPyramid24
+    4300608: pPyramid2
+    4300610: pPyramid25
+    4300612: pPyramid22
+    4300614: pPyramid26
+    4300616: pPyramid23
+    4300618: pPyramid28
+    4300620: pPyramid27
+    4300622: pPyramid30
+    4300624: pPyramid31
+    4300626: pPyramid34
+    4300628: pPyramid35
+    4300630: pPyramid36
+    4300632: pPyramid37
+    4300634: pPyramid29
+    4300636: pPyramid21
+    4300638: pPyramid24
+    4300640: pPyramid2
+    4300642: pPyramid25
+    4300644: pPyramid22
+    4300646: pPyramid26
+    4300648: pPyramid23
+    4300650: pPyramid28
+    4300652: pPyramid27
+    4300654: pPyramid29
+    4300656: pPyramid21
+    4300658: pPyramid24
+    4300660: pPyramid2
+    4300662: pPyramid25
+    4300664: pPyramid22
+    4300666: pPyramid26
+    4300668: pPyramid23
+    4300670: pPyramid27
+    4300672: pPyramid29
+    4300674: pPyramid21
+    4300676: pPyramid24
+    4300678: pPyramid2
+    4300680: pPyramid25
+    4300682: pPyramid22
+    4300684: pPyramid26
+    4300686: pPyramid23
+    4300688: pPyramid28
+    4300690: pPyramid27
+    4300692: pPyramid29
+    4300694: pPyramid21
+    4300696: pPyramid24
+    4300698: pPyramid2
+    4300700: pPyramid25
+    4300702: pPyramid22
+    4300704: pPyramid26
+    4300706: pPyramid23
+    4300708: pPyramid28
+    4300710: pPyramid27
+    4300712: group36_pPyramid29
+    4300714: group36_pPyramid30
+    4300716: group36_pPyramid31
+    4300718: group36_pPyramid34
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 15
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
